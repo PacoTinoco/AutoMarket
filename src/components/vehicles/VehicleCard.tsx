@@ -85,7 +85,11 @@ export function VehicleCard({ vehicle }: VehicleCardProps) {
       </CardContent>
 
       <CardFooter className="pt-0">
-        <Button className="w-full" disabled={!vehicle.inStock}>
+        <Button 
+          className="w-full" 
+          disabled={!vehicle.inStock}
+          onClick={() => window.location.href = `/vehiculo/${vehicle.id}`}
+        >
           {vehicle.inStock ? 'Ver Detalles' : 'No Disponible'}
         </Button>
       </CardFooter>
