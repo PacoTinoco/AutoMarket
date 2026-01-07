@@ -147,10 +147,10 @@ function generateDealer(brand: string): any {
       lat: faker.location.latitude({ min: 14, max: 32 }),
       lng: faker.location.longitude({ min: -118, max: -86 })
     },
-    phone: faker.phone.number('###-###-####'),
+    phone: faker.phone.number({ style: 'national' }),
     email: `contacto@${brand.toLowerCase()}${cityName.toLowerCase()}.com.mx`,
     website: `www.${brand.toLowerCase()}${cityName.toLowerCase()}.com.mx`,
-    whatsapp: faker.phone.number('52##########'),
+    whatsapp: faker.phone.number({ style: 'national' }),
     hours: {
       monday: '9:00 AM - 7:00 PM',
       tuesday: '9:00 AM - 7:00 PM',
