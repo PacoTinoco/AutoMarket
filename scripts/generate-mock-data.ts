@@ -160,7 +160,7 @@ function generateDealer(brand: string): any {
       saturday: '9:00 AM - 6:00 PM',
       sunday: '10:00 AM - 3:00 PM'
     },
-    rating: faker.number.float({ min: 3.5, max: 5, precision: 0.1 }),
+    rating: faker.number.float({ min: 3.5, max: 5, multipleOf: 0.1 }),
     reviewCount: faker.number.int({ min: 10, max: 500 }),
     certified: faker.datatype.boolean(0.7),
     vehicleCount: faker.number.int({ min: 15, max: 80 }),
