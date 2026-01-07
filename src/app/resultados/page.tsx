@@ -21,6 +21,8 @@ export default function ResultadosPage() {
   const [budgetInput, setBudgetInput] = useState<BudgetInput | null>(null);
   const [currentFilters, setCurrentFilters] = useState<Filters>({});
   const [currentSort, setCurrentSort] = useState<VehicleSortOption>('price_asc');
+  const [selectedVehicles, setSelectedVehicles] = useState<string[]>([]);
+  const [compareMode, setCompareMode] = useState(false);
 
   useEffect(() => {
     // Recuperar datos del sessionStorage
@@ -138,6 +140,26 @@ export default function ResultadosPage() {
     setFilteredVehicles(filtered);
   };
 
+  const handleSelectVehicle = (vehicleId: string, selected: boolean) => {
+    if (selected) {
+      if (selectedVehicles.length >= 3) {
+        alert('Solo puedes comparar hasta 3 vehículos');
+        return;
+      }
+      setSelectedVehicles([...selectedVehicles, vehicleId]);
+    } else {
+      setSelectedVehicles(selectedVehicles.filter(id => id !== vehicleId));
+    }
+  };
+
+  const handleCompare = () => {
+    if (selectedVehicles.length < 2) {
+      alert('Selecciona al menos 2 vehículos para comparar');
+      return;
+    }
+    router.push(`/comparar?ids=${selectedVehicles.join(',')}`);
+  };
+
   if (loading || !budgetResult) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -192,6 +214,39 @@ export default function ResultadosPage() {
 
       {/* Results */}
       <div className="container mx-auto px-4 pb-12">
+        {/* Barra de comparación */}
+        {compareMode && (
+          <div className="mb-6 bg-blue-50 border-2 border-blue-200 rounded-lg p-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="font-semibold text-blue-900">
+                  Modo Comparación
+                </span>
+                <span className="text-sm text-blue-700">
+                  {selectedVehicles.length}/3 vehículos seleccionados
+                </span>
+              </div>
+              <div className="flex gap-2">
+                <Button
+                  variant="outline"
+                  onClick={() => {
+                    setCompareMode(false);
+                    setSelectedVehicles([]);
+                  }}
+                >
+                  Cancelar
+                </Button>
+                <Button
+                  onClick={handleCompare}
+                  disabled={selectedVehicles.length < 2}
+                >
+                  Comparar ({selectedVehicles.length})
+                </Button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {filteredVehicles.length === 0 ? (
           <div className="text-center py-12 bg-white rounded-lg shadow">
             <div className="text-6xl mb-4">🔍</div>
@@ -218,13 +273,27 @@ export default function ResultadosPage() {
           </div>
         ) : (
           <>
-            <VehicleGrid vehicles={filteredVehicles} />
+            <VehicleGrid 
+              vehicles={filteredVehicles}
+              selectedVehicles={selectedVehicles}
+              onSelectVehicle={handleSelectVehicle}
+              showCheckboxes={compareMode}
+            />
             
             {/* Footer con stats */}
-            <div className="mt-8 text-center text-slate-600">
-              <p>
+            <div className="mt-8 text-center">
+              <p className="text-slate-600 mb-4">
                 Mostrando {filteredVehicles.length} de {allVehicles.length} vehículos disponibles
               </p>
+              {!compareMode && (
+                <Button
+                  variant="outline"
+                  onClick={() => setCompareMode(true)}
+                  className="border-blue-600 text-blue-700 hover:bg-blue-50"
+                >
+                  🔄 Activar modo comparación
+                </Button>
+              )}
             </div>
           </>
         )}

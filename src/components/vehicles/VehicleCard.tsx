@@ -8,9 +8,12 @@ import { formatCurrency } from '@/lib/financial';
 
 interface VehicleCardProps {
   vehicle: Vehicle;
+  isSelected?: boolean;
+  onSelect?: (vehicleId: string, selected: boolean) => void;
+  showCheckbox?: boolean;
 }
 
-export function VehicleCard({ vehicle }: VehicleCardProps) {
+export function VehicleCard({ vehicle, isSelected = false, onSelect, showCheckbox = false }: VehicleCardProps) {
   const conditionLabels = {
     new: 'Nuevo',
     used: 'Usado',
@@ -24,7 +27,7 @@ export function VehicleCard({ vehicle }: VehicleCardProps) {
   };
 
   return (
-    <Card className="overflow-hidden hover:shadow-xl transition-shadow">
+    <Card className={`overflow-hidden hover:shadow-xl transition-shadow ${isSelected ? 'ring-2 ring-blue-500' : ''}`}>
       {/* Imagen */}
       <div className="relative h-48 bg-slate-200">
         <img
@@ -40,6 +43,17 @@ export function VehicleCard({ vehicle }: VehicleCardProps) {
         {!vehicle.inStock && (
           <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
             <Badge variant="destructive">No Disponible</Badge>
+          </div>
+        )}
+        {/* Checkbox de selección */}
+        {showCheckbox && vehicle.inStock && (
+          <div className="absolute top-2 left-2">
+            <input
+              type="checkbox"
+              checked={isSelected}
+              onChange={(e) => onSelect?.(vehicle.id, e.target.checked)}
+              className="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500 cursor-pointer"
+            />
           </div>
         )}
       </div>
