@@ -1,0 +1,3935 @@
+[
+  {
+    "id": "vh-yTpTGnwP",
+    "brand": "Ford",
+    "model": "Maverick",
+    "year": 2025,
+    "price": 167000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 57646,
+    "features": [
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Bluetooth",
+      "Entrada Auxiliar",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Negro",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,0",
+      "https://source.unsplash.com/800x600/?automobile,maverick,1000"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,0",
+    "dealerId": "dealer-Dc2UUyhy",
+    "dealerName": "Ford Tijuana",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-11-16T02:48:27.846Z",
+    "updatedAt": "2025-12-19T02:19:43.179Z"
+  },
+  {
+    "id": "vh-Si9kb49M",
+    "brand": "SEAT",
+    "model": "Arona",
+    "year": 2021,
+    "price": 114000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 73683,
+    "features": [
+      "Cruise Control",
+      "Sensor de Estacionamiento",
+      "Bluetooth",
+      "Asientos de Piel",
+      "Dirección Hidráulica",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Plata",
+      "Gris",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,1",
+      "https://source.unsplash.com/800x600/?automobile,arona,1001"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,1",
+    "dealerId": "dealer-78otpBpl",
+    "dealerName": "SEAT León",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-10-08T22:01:17.064Z",
+    "updatedAt": "2026-01-03T11:34:21.075Z"
+  },
+  {
+    "id": "vh-vJOh2Cos",
+    "brand": "Suzuki",
+    "model": "Swift",
+    "year": 2021,
+    "price": 103000,
+    "type": "suv",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 38168,
+    "features": [
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Puerto USB",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Sensor de Estacionamiento",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Café",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,2",
+      "https://source.unsplash.com/800x600/?automobile,swift,1002"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,2",
+    "dealerId": "dealer-EGmWCbTG",
+    "dealerName": "Suzuki Morelia",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-04-29T00:02:32.866Z",
+    "updatedAt": "2025-12-31T09:38:21.650Z"
+  },
+  {
+    "id": "vh-zYwjNSu5",
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2019,
+    "price": 334000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Frenos ABS",
+      "Aire Acondicionado",
+      "Entrada Auxiliar",
+      "Sistema de Navegación",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Negro",
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,3",
+      "https://source.unsplash.com/800x600/?automobile,gla,1003"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,3",
+    "dealerId": "dealer-d0jWE5Tc",
+    "dealerName": "Mercedes-Benz Guadalajara",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-04-02T19:15:17.279Z",
+    "updatedAt": "2025-12-30T21:41:57.012Z"
+  },
+  {
+    "id": "vh-sr5mffeN",
+    "brand": "Mercedes-Benz",
+    "model": "Clase E",
+    "year": 2021,
+    "price": 342000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 58407,
+    "features": [
+      "Frenos ABS",
+      "Puerto USB",
+      "Control de Estabilidad",
+      "Rines de Aleación",
+      "Asientos de Piel",
+      "Cruise Control",
+      "Dirección Hidráulica",
+      "Entrada Auxiliar",
+      "Bluetooth",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Plata",
+      "Blanco",
+      "Negro",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,4",
+      "https://source.unsplash.com/800x600/?automobile,clase e,1004"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,4",
+    "dealerId": "dealer-pn1fUB85",
+    "dealerName": "Mercedes-Benz León",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": false,
+    "stockQuantity": 4,
+    "createdAt": "2025-03-14T00:07:54.896Z",
+    "updatedAt": "2025-12-18T05:41:22.883Z"
+  },
+  {
+    "id": "vh-JDv0khLG",
+    "brand": "Peugeot",
+    "model": "2008",
+    "year": 2024,
+    "price": 143000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "1.5L Turbo",
+    "mileage": 56202,
+    "features": [
+      "Bolsas de Aire",
+      "Aire Acondicionado",
+      "Puerto USB",
+      "Sistema de Navegación",
+      "Bluetooth",
+      "Entrada Auxiliar",
+      "Asientos de Piel",
+      "Quemacocos",
+      "Control de Estabilidad",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Gris",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,5",
+      "https://source.unsplash.com/800x600/?automobile,2008,1005"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,5",
+    "dealerId": "dealer-9oEc1KOL",
+    "dealerName": "Peugeot Cancún",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-03-28T23:24:18.304Z",
+    "updatedAt": "2025-12-29T23:47:01.025Z"
+  },
+  {
+    "id": "vh-G3mVkNdX",
+    "brand": "Suzuki",
+    "model": "S-Cross",
+    "year": 2021,
+    "price": 135000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Quemacocos",
+      "Bluetooth",
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Asientos de Piel",
+      "Puerto USB",
+      "Frenos ABS",
+      "Cruise Control",
+      "Bolsas de Aire",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Plata",
+      "Café",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,6",
+      "https://source.unsplash.com/800x600/?automobile,s-cross,1006"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,6",
+    "dealerId": "dealer-a6BAqoQ7",
+    "dealerName": "Suzuki Ciudad de México",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-03-04T15:41:25.656Z",
+    "updatedAt": "2025-12-30T05:52:17.171Z"
+  },
+  {
+    "id": "vh-97NoJrAH",
+    "brand": "Peugeot",
+    "model": "Partner",
+    "year": 2020,
+    "price": 102000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 36757,
+    "features": [
+      "Rines de Aleación",
+      "Sistema de Navegación",
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Entrada Auxiliar",
+      "Control de Estabilidad",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Plata",
+      "Negro",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,7",
+      "https://source.unsplash.com/800x600/?automobile,partner,1007"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,7",
+    "dealerId": "dealer-1JpJt8pb",
+    "dealerName": "Peugeot Tijuana",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-04-02T14:52:59.301Z",
+    "updatedAt": "2025-12-16T04:19:27.383Z"
+  },
+  {
+    "id": "vh-vI9kANUj",
+    "brand": "Kia",
+    "model": "Sorento",
+    "year": 2023,
+    "price": 121000,
+    "type": "suv",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "1.5L Turbo",
+    "mileage": 98268,
+    "features": [
+      "Puerto USB",
+      "Entrada Auxiliar",
+      "Frenos ABS",
+      "Asientos de Piel",
+      "Quemacocos",
+      "Aire Acondicionado",
+      "Control de Estabilidad"
+    ],
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Negro",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,8",
+      "https://source.unsplash.com/800x600/?automobile,sorento,1008"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,8",
+    "dealerId": "dealer-v8SpHB7X",
+    "dealerName": "Kia Mérida",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-05-26T19:37:09.988Z",
+    "updatedAt": "2026-01-03T23:46:50.470Z"
+  },
+  {
+    "id": "vh-EveqUGNi",
+    "brand": "Ford",
+    "model": "Fiesta",
+    "year": 2024,
+    "price": 133000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 56012,
+    "features": [
+      "Sistema de Navegación",
+      "Dirección Hidráulica",
+      "Aire Acondicionado",
+      "Cámara de Reversa",
+      "Entrada Auxiliar",
+      "Asientos de Piel",
+      "Quemacocos",
+      "Rines de Aleación",
+      "Control de Estabilidad"
+    ],
+    "colors": [
+      "Negro",
+      "Blanco",
+      "Plata",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,9",
+      "https://source.unsplash.com/800x600/?automobile,fiesta,1009"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,9",
+    "dealerId": "dealer-8yZNfSxC",
+    "dealerName": "Ford Mérida",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-08-03T12:07:52.137Z",
+    "updatedAt": "2025-12-20T01:45:10.911Z"
+  },
+  {
+    "id": "vh-GRIHPdEB",
+    "brand": "Kia",
+    "model": "Forte",
+    "year": 2023,
+    "price": 150000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Frenos ABS",
+      "Rines de Aleación",
+      "Bluetooth",
+      "Puerto USB",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Rojo",
+      "Blanco",
+      "Plata",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,10",
+      "https://source.unsplash.com/800x600/?automobile,forte,1010"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,10",
+    "dealerId": "dealer-vJzuBzsu",
+    "dealerName": "Kia Querétaro",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-10-09T12:27:44.332Z",
+    "updatedAt": "2026-01-02T09:39:43.412Z"
+  },
+  {
+    "id": "vh-3FQinkSP",
+    "brand": "BMW",
+    "model": "X3",
+    "year": 2025,
+    "price": 530000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Rines de Aleación",
+      "Asientos de Piel",
+      "Bolsas de Aire",
+      "Control de Estabilidad",
+      "Sensor de Estacionamiento",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Puerto USB",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Rojo",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,11",
+      "https://source.unsplash.com/800x600/?automobile,x3,1011"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,11",
+    "dealerId": "dealer-EkHzH1D5",
+    "dealerName": "BMW Mérida",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-11-01T12:53:53.867Z",
+    "updatedAt": "2025-12-12T14:04:17.983Z"
+  },
+  {
+    "id": "vh-8oixJWXn",
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "year": 2019,
+    "price": 101000,
+    "type": "hatchback",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 61989,
+    "features": [
+      "Bluetooth",
+      "Rines de Aleación",
+      "Cruise Control",
+      "Entrada Auxiliar",
+      "Sensor de Estacionamiento",
+      "Asientos de Piel",
+      "Frenos ABS",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Rojo",
+      "Azul",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,12",
+      "https://source.unsplash.com/800x600/?automobile,jimny,1012"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,12",
+    "dealerId": "dealer-IMzXhOTH",
+    "dealerName": "Suzuki Morelia",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-03-27T08:41:09.000Z",
+    "updatedAt": "2025-12-25T08:47:44.388Z"
+  },
+  {
+    "id": "vh-CDnSGaHk",
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "year": 2023,
+    "price": 173000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "2.0L I4",
+    "mileage": 99983,
+    "features": [
+      "Sistema de Navegación",
+      "Puerto USB",
+      "Dirección Hidráulica",
+      "Bluetooth",
+      "Quemacocos",
+      "Rines de Aleación",
+      "Asientos de Piel",
+      "Control de Estabilidad"
+    ],
+    "colors": [
+      "Blanco",
+      "Azul",
+      "Café",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,13",
+      "https://source.unsplash.com/800x600/?automobile,x-trail,1013"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,13",
+    "dealerId": "dealer-UJAe2V9G",
+    "dealerName": "Nissan Toluca",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-11-04T05:56:07.831Z",
+    "updatedAt": "2025-12-15T21:57:35.151Z"
+  },
+  {
+    "id": "vh-j4gKvs7L",
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2021,
+    "price": 137000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Frenos ABS",
+      "Sistema de Navegación",
+      "Control de Estabilidad",
+      "Bolsas de Aire",
+      "Cámara de Reversa",
+      "Cruise Control",
+      "Asientos de Piel",
+      "Aire Acondicionado",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Negro",
+      "Plata",
+      "Rojo",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,14",
+      "https://source.unsplash.com/800x600/?automobile,rio,1014"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,14",
+    "dealerId": "dealer-3LdwJP6a",
+    "dealerName": "Kia Puebla",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-08-23T02:48:48.420Z",
+    "updatedAt": "2025-12-24T19:00:26.165Z"
+  },
+  {
+    "id": "vh-WomkJx0T",
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "year": 2018,
+    "price": 128000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Quemacocos",
+      "Frenos ABS",
+      "Cruise Control",
+      "Dirección Hidráulica",
+      "Sensor de Estacionamiento"
+    ],
+    "colors": [
+      "Café",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,15",
+      "https://source.unsplash.com/800x600/?automobile,jetta,1015"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,15",
+    "dealerId": "dealer-cUGEdDht",
+    "dealerName": "Volkswagen Aguascalientes",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-06-28T17:52:13.331Z",
+    "updatedAt": "2026-01-04T01:17:07.868Z"
+  },
+  {
+    "id": "vh-bQxb62BW",
+    "brand": "Renault",
+    "model": "Koleos",
+    "year": 2020,
+    "price": 113000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Quemacocos",
+      "Control de Estabilidad",
+      "Frenos ABS",
+      "Cámara de Reversa",
+      "Sistema de Navegación",
+      "Sensor de Estacionamiento",
+      "Rines de Aleación",
+      "Bolsas de Aire",
+      "Bluetooth",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,renault,16",
+      "https://source.unsplash.com/800x600/?automobile,koleos,1016"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,renault,16",
+    "dealerId": "dealer-w3FwtWvX",
+    "dealerName": "Renault Aguascalientes",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-07-21T17:57:51.412Z",
+    "updatedAt": "2026-01-03T07:18:04.941Z"
+  },
+  {
+    "id": "vh-BW0SFSMQ",
+    "brand": "Mazda",
+    "model": "CX-30",
+    "year": 2019,
+    "price": 144000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 97341,
+    "features": [
+      "Entrada Auxiliar",
+      "Cruise Control",
+      "Puerto USB",
+      "Frenos ABS",
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Bluetooth",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Azul",
+      "Plata",
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mazda,17",
+      "https://source.unsplash.com/800x600/?automobile,cx-30,1017"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mazda,17",
+    "dealerId": "dealer-KUJuGxJY",
+    "dealerName": "Mazda Ciudad de México",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": false,
+    "stockQuantity": 5,
+    "createdAt": "2025-04-11T13:13:11.775Z",
+    "updatedAt": "2025-12-10T08:13:01.203Z"
+  },
+  {
+    "id": "vh-zKzFqpPt",
+    "brand": "Mercedes-Benz",
+    "model": "Clase E",
+    "year": 2018,
+    "price": 263000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "3.0L V6",
+    "mileage": 53005,
+    "features": [
+      "Rines de Aleación",
+      "Quemacocos",
+      "Sensor de Estacionamiento",
+      "Asientos de Piel",
+      "Control de Estabilidad",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Plata",
+      "Negro",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,18",
+      "https://source.unsplash.com/800x600/?automobile,clase e,1018"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,18",
+    "dealerId": "dealer-EYpbVkb2",
+    "dealerName": "Mercedes-Benz Puebla",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-08-14T03:24:18.222Z",
+    "updatedAt": "2025-12-21T16:08:23.898Z"
+  },
+  {
+    "id": "vh-lczPhflt",
+    "brand": "SEAT",
+    "model": "Arona",
+    "year": 2019,
+    "price": 102000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Bolsas de Aire",
+      "Rines de Aleación",
+      "Asientos de Piel",
+      "Sistema de Navegación",
+      "Aire Acondicionado",
+      "Cámara de Reversa",
+      "Puerto USB",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Plata",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,19",
+      "https://source.unsplash.com/800x600/?automobile,arona,1019"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,19",
+    "dealerId": "dealer-g89ol1yi",
+    "dealerName": "SEAT Toluca",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": false,
+    "stockQuantity": 1,
+    "createdAt": "2025-05-20T06:59:48.833Z",
+    "updatedAt": "2025-12-21T20:58:43.981Z"
+  },
+  {
+    "id": "vh-comhTFcq",
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "year": 2022,
+    "price": 166000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "3.0L V6",
+    "mileage": 85601,
+    "features": [
+      "Quemacocos",
+      "Control de Estabilidad",
+      "Aire Acondicionado",
+      "Sensor de Estacionamiento",
+      "Frenos ABS",
+      "Sistema de Navegación",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Gris",
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,20",
+      "https://source.unsplash.com/800x600/?automobile,vento,1020"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,20",
+    "dealerId": "dealer-NEqXLtAb",
+    "dealerName": "Volkswagen Puebla",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-01-11T21:21:14.859Z",
+    "updatedAt": "2025-12-24T06:30:42.507Z"
+  },
+  {
+    "id": "vh-0pYU6asi",
+    "brand": "SEAT",
+    "model": "Ateca",
+    "year": 2018,
+    "price": 96000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Rines de Aleación",
+      "Cruise Control",
+      "Quemacocos",
+      "Cámara de Reversa",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Gris",
+      "Café",
+      "Blanco",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,21",
+      "https://source.unsplash.com/800x600/?automobile,ateca,1021"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,21",
+    "dealerId": "dealer-nYxWyYv9",
+    "dealerName": "SEAT Morelia",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": false,
+    "stockQuantity": 3,
+    "createdAt": "2025-01-17T15:30:30.979Z",
+    "updatedAt": "2025-12-28T17:58:49.445Z"
+  },
+  {
+    "id": "vh-vhaKrigp",
+    "brand": "Ford",
+    "model": "Escape",
+    "year": 2019,
+    "price": 101000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 61100,
+    "features": [
+      "Asientos de Piel",
+      "Sistema de Navegación",
+      "Frenos ABS",
+      "Aire Acondicionado",
+      "Quemacocos",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Gris",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,22",
+      "https://source.unsplash.com/800x600/?automobile,escape,1022"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,22",
+    "dealerId": "dealer-01f1tp9K",
+    "dealerName": "Ford Cancún",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-04-22T12:49:17.145Z",
+    "updatedAt": "2025-12-23T14:40:21.122Z"
+  },
+  {
+    "id": "vh-qskF4Lh1",
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2022,
+    "price": 415000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 41779,
+    "features": [
+      "Aire Acondicionado",
+      "Sistema de Navegación",
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Asientos de Piel",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Plata",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,23",
+      "https://source.unsplash.com/800x600/?automobile,gle,1023"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,23",
+    "dealerId": "dealer-PuE1LH18",
+    "dealerName": "Mercedes-Benz Guadalajara",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-04-29T16:20:33.925Z",
+    "updatedAt": "2026-01-06T02:49:23.854Z"
+  },
+  {
+    "id": "vh-tCeiHON8",
+    "brand": "Toyota",
+    "model": "Hilux",
+    "year": 2019,
+    "price": 152000,
+    "type": "crossover",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 64206,
+    "features": [
+      "Entrada Auxiliar",
+      "Bluetooth",
+      "Bolsas de Aire",
+      "Frenos ABS",
+      "Control de Estabilidad",
+      "Aire Acondicionado",
+      "Rines de Aleación",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Café",
+      "Rojo",
+      "Plata",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,24",
+      "https://source.unsplash.com/800x600/?automobile,hilux,1024"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,24",
+    "dealerId": "dealer-4exOKDOp",
+    "dealerName": "Toyota Mérida",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-02-24T01:14:09.646Z",
+    "updatedAt": "2025-12-18T07:33:03.042Z"
+  },
+  {
+    "id": "vh-oy3GQQuS",
+    "brand": "Honda",
+    "model": "City",
+    "year": 2025,
+    "price": 255000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 94760,
+    "features": [
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Azul",
+      "Negro",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,25",
+      "https://source.unsplash.com/800x600/?automobile,city,1025"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,25",
+    "dealerId": "dealer-wLMhTeTg",
+    "dealerName": "Honda Ciudad de México",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": false,
+    "stockQuantity": 4,
+    "createdAt": "2025-12-17T01:19:00.592Z",
+    "updatedAt": "2025-12-19T00:02:39.215Z"
+  },
+  {
+    "id": "vh-rqnIVRPP",
+    "brand": "Toyota",
+    "model": "Hilux",
+    "year": 2025,
+    "price": 274000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Cámara de Reversa",
+      "Sensor de Estacionamiento",
+      "Asientos de Piel",
+      "Control de Estabilidad",
+      "Puerto USB",
+      "Cruise Control",
+      "Bluetooth",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Negro",
+      "Gris",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,26",
+      "https://source.unsplash.com/800x600/?automobile,hilux,1026"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,26",
+    "dealerId": "dealer-Dbidiopl",
+    "dealerName": "Toyota Monterrey",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-04-20T02:56:41.253Z",
+    "updatedAt": "2025-12-08T14:48:56.446Z"
+  },
+  {
+    "id": "vh-vKLnJ97X",
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2022,
+    "price": 127000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 61188,
+    "features": [
+      "Bolsas de Aire",
+      "Aire Acondicionado",
+      "Puerto USB",
+      "Frenos ABS",
+      "Control de Estabilidad",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Rines de Aleación",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Azul",
+      "Negro",
+      "Plata",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,27",
+      "https://source.unsplash.com/800x600/?automobile,focus,1027"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,27",
+    "dealerId": "dealer-uKDRoX2T",
+    "dealerName": "Ford Guadalajara",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-02-19T15:41:34.899Z",
+    "updatedAt": "2025-12-14T18:19:18.403Z"
+  },
+  {
+    "id": "vh-TInRZDXU",
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2019,
+    "price": 155000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 19809,
+    "features": [
+      "Quemacocos",
+      "Sensor de Estacionamiento",
+      "Cámara de Reversa",
+      "Rines de Aleación",
+      "Bolsas de Aire",
+      "Cruise Control",
+      "Sistema de Navegación",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Plata",
+      "Azul",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,28",
+      "https://source.unsplash.com/800x600/?automobile,camry,1028"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,28",
+    "dealerId": "dealer-FxROUZyc",
+    "dealerName": "Toyota Puebla",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-01-30T23:15:59.154Z",
+    "updatedAt": "2025-12-18T09:13:53.443Z"
+  },
+  {
+    "id": "vh-4kgEY944",
+    "brand": "Kia",
+    "model": "Sorento",
+    "year": 2025,
+    "price": 158000,
+    "type": "crossover",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 80636,
+    "features": [
+      "Puerto USB",
+      "Rines de Aleación",
+      "Quemacocos",
+      "Bolsas de Aire",
+      "Frenos ABS",
+      "Sistema de Navegación",
+      "Bluetooth",
+      "Sensor de Estacionamiento"
+    ],
+    "colors": [
+      "Gris",
+      "Blanco",
+      "Café",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,29",
+      "https://source.unsplash.com/800x600/?automobile,sorento,1029"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,29",
+    "dealerId": "dealer-PMR3Unc9",
+    "dealerName": "Kia Aguascalientes",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-09-06T06:06:32.117Z",
+    "updatedAt": "2025-12-31T20:38:56.976Z"
+  },
+  {
+    "id": "vh-msm5rOUj",
+    "brand": "Nissan",
+    "model": "Versa",
+    "year": 2019,
+    "price": 151000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 0,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Asientos de Piel",
+      "Entrada Auxiliar",
+      "Dirección Hidráulica",
+      "Puerto USB",
+      "Quemacocos",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Rojo",
+      "Plata",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,30",
+      "https://source.unsplash.com/800x600/?automobile,versa,1030"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,30",
+    "dealerId": "dealer-DI5v5DfJ",
+    "dealerName": "Nissan Puebla",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-10-07T14:42:25.828Z",
+    "updatedAt": "2025-12-27T01:17:18.348Z"
+  },
+  {
+    "id": "vh-w459DROe",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "year": 2020,
+    "price": 113000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Aire Acondicionado",
+      "Dirección Hidráulica",
+      "Bluetooth",
+      "Entrada Auxiliar",
+      "Control de Estabilidad",
+      "Rines de Aleación",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Rojo",
+      "Plata",
+      "Blanco",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,31",
+      "https://source.unsplash.com/800x600/?automobile,tucson,1031"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,31",
+    "dealerId": "dealer-3pllATnj",
+    "dealerName": "Hyundai Puebla",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-03-13T22:33:37.131Z",
+    "updatedAt": "2026-01-02T02:18:32.899Z"
+  },
+  {
+    "id": "vh-nHlMopc5",
+    "brand": "Volkswagen",
+    "model": "Taos",
+    "year": 2021,
+    "price": 146000,
+    "type": "hatchback",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 95256,
+    "features": [
+      "Rines de Aleación",
+      "Bolsas de Aire",
+      "Aire Acondicionado",
+      "Frenos ABS",
+      "Sistema de Navegación",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Plata",
+      "Negro",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,32",
+      "https://source.unsplash.com/800x600/?automobile,taos,1032"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,32",
+    "dealerId": "dealer-3T3Q6xcw",
+    "dealerName": "Volkswagen León",
+    "dealerLocation": "Ciudad de México",
+    "inStock": false,
+    "stockQuantity": 3,
+    "createdAt": "2025-06-26T01:55:24.574Z",
+    "updatedAt": "2025-12-23T00:58:01.849Z"
+  },
+  {
+    "id": "vh-w2x39BqI",
+    "brand": "Suzuki",
+    "model": "Swift",
+    "year": 2018,
+    "price": 85000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 36415,
+    "features": [
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Dirección Hidráulica",
+      "Entrada Auxiliar",
+      "Rines de Aleación",
+      "Puerto USB",
+      "Frenos ABS"
+    ],
+    "colors": [
+      "Blanco",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,33",
+      "https://source.unsplash.com/800x600/?automobile,swift,1033"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,33",
+    "dealerId": "dealer-Ho1pOm6n",
+    "dealerName": "Suzuki Aguascalientes",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-07-19T00:00:02.344Z",
+    "updatedAt": "2025-12-12T02:55:50.599Z"
+  },
+  {
+    "id": "vh-tXDqkVkw",
+    "brand": "Mazda",
+    "model": "CX-3",
+    "year": 2022,
+    "price": 232000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 0,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Control de Estabilidad",
+      "Bluetooth",
+      "Frenos ABS",
+      "Bolsas de Aire",
+      "Quemacocos",
+      "Asientos de Piel",
+      "Aire Acondicionado",
+      "Sistema de Navegación",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Negro",
+      "Café",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mazda,34",
+      "https://source.unsplash.com/800x600/?automobile,cx-3,1034"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mazda,34",
+    "dealerId": "dealer-JsJKow2G",
+    "dealerName": "Mazda Puebla",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": false,
+    "stockQuantity": 5,
+    "createdAt": "2025-10-25T05:01:51.857Z",
+    "updatedAt": "2026-01-04T13:26:46.922Z"
+  },
+  {
+    "id": "vh-hDy66L48",
+    "brand": "Renault",
+    "model": "Sandero",
+    "year": 2024,
+    "price": 136000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "1.5L Turbo",
+    "mileage": 77401,
+    "features": [
+      "Bluetooth",
+      "Quemacocos",
+      "Bolsas de Aire",
+      "Puerto USB",
+      "Cámara de Reversa",
+      "Entrada Auxiliar",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Rojo",
+      "Gris",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,renault,35",
+      "https://source.unsplash.com/800x600/?automobile,sandero,1035"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,renault,35",
+    "dealerId": "dealer-o6fkLYKh",
+    "dealerName": "Renault Ciudad de México",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-04-21T06:47:28.958Z",
+    "updatedAt": "2025-12-30T12:08:10.724Z"
+  },
+  {
+    "id": "vh-UUv87P1r",
+    "brand": "Renault",
+    "model": "Logan",
+    "year": 2019,
+    "price": 104000,
+    "type": "sedan",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Sistema de Navegación",
+      "Puerto USB",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Rines de Aleación",
+      "Sensor de Estacionamiento"
+    ],
+    "colors": [
+      "Negro",
+      "Café",
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,renault,36",
+      "https://source.unsplash.com/800x600/?automobile,logan,1036"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,renault,36",
+    "dealerId": "dealer-3q25CbZG",
+    "dealerName": "Renault Morelia",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-11-02T23:19:17.187Z",
+    "updatedAt": "2025-12-13T05:54:09.568Z"
+  },
+  {
+    "id": "vh-v2EdQDrg",
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2018,
+    "price": 296000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Rines de Aleación",
+      "Sensor de Estacionamiento",
+      "Entrada Auxiliar",
+      "Cámara de Reversa",
+      "Bolsas de Aire",
+      "Cruise Control",
+      "Puerto USB",
+      "Aire Acondicionado",
+      "Dirección Hidráulica",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Café",
+      "Azul",
+      "Rojo",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,37",
+      "https://source.unsplash.com/800x600/?automobile,glc,1037"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,37",
+    "dealerId": "dealer-YRuFIupM",
+    "dealerName": "Mercedes-Benz Morelia",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-05-14T08:59:32.613Z",
+    "updatedAt": "2025-12-20T03:08:24.689Z"
+  },
+  {
+    "id": "vh-0jEdZNvM",
+    "brand": "Nissan",
+    "model": "Versa",
+    "year": 2025,
+    "price": 192000,
+    "type": "suv",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 99323,
+    "features": [
+      "Control de Estabilidad",
+      "Bluetooth",
+      "Frenos ABS",
+      "Bolsas de Aire",
+      "Sistema de Navegación",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Plata",
+      "Blanco",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,38",
+      "https://source.unsplash.com/800x600/?automobile,versa,1038"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,38",
+    "dealerId": "dealer-Xec1E1oH",
+    "dealerName": "Nissan Monterrey",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-08-01T01:18:39.628Z",
+    "updatedAt": "2025-12-13T13:56:54.687Z"
+  },
+  {
+    "id": "vh-yvimM3QY",
+    "brand": "Honda",
+    "model": "Accord",
+    "year": 2022,
+    "price": 206000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Bluetooth",
+      "Bolsas de Aire",
+      "Entrada Auxiliar",
+      "Cruise Control",
+      "Asientos de Piel",
+      "Rines de Aleación",
+      "Sensor de Estacionamiento",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Café",
+      "Azul",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,39",
+      "https://source.unsplash.com/800x600/?automobile,accord,1039"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,39",
+    "dealerId": "dealer-FJ8cQALU",
+    "dealerName": "Honda Monterrey",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-01-27T08:50:13.619Z",
+    "updatedAt": "2025-12-08T10:15:33.444Z"
+  },
+  {
+    "id": "vh-pPoYwAHs",
+    "brand": "Honda",
+    "model": "City",
+    "year": 2021,
+    "price": 197000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Asientos de Piel",
+      "Frenos ABS",
+      "Bolsas de Aire",
+      "Puerto USB",
+      "Quemacocos",
+      "Bluetooth",
+      "Control de Estabilidad",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Plata",
+      "Blanco",
+      "Café",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,40",
+      "https://source.unsplash.com/800x600/?automobile,city,1040"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,40",
+    "dealerId": "dealer-v7oxn9VY",
+    "dealerName": "Honda Tijuana",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-09-16T18:46:31.261Z",
+    "updatedAt": "2025-12-15T06:22:14.918Z"
+  },
+  {
+    "id": "vh-NHaRk2Io",
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2023,
+    "price": 426000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Cámara de Reversa",
+      "Entrada Auxiliar",
+      "Frenos ABS",
+      "Cruise Control",
+      "Asientos de Piel",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Gris",
+      "Café",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,41",
+      "https://source.unsplash.com/800x600/?automobile,gla,1041"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,41",
+    "dealerId": "dealer-X6cnAvTC",
+    "dealerName": "Mercedes-Benz Morelia",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-07-02T09:41:42.233Z",
+    "updatedAt": "2025-12-14T19:43:50.094Z"
+  },
+  {
+    "id": "vh-NDlyoblZ",
+    "brand": "Peugeot",
+    "model": "2008",
+    "year": 2021,
+    "price": 123000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 43537,
+    "features": [
+      "Bolsas de Aire",
+      "Sensor de Estacionamiento",
+      "Dirección Hidráulica",
+      "Control de Estabilidad",
+      "Cámara de Reversa",
+      "Sistema de Navegación",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Azul",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,42",
+      "https://source.unsplash.com/800x600/?automobile,2008,1042"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,42",
+    "dealerId": "dealer-9g2mFpis",
+    "dealerName": "Peugeot Querétaro",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-09-15T06:36:20.248Z",
+    "updatedAt": "2025-12-14T04:16:05.700Z"
+  },
+  {
+    "id": "vh-L7tmAHHZ",
+    "brand": "Honda",
+    "model": "CR-V",
+    "year": 2025,
+    "price": 267000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Bluetooth",
+      "Puerto USB",
+      "Quemacocos",
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Cruise Control",
+      "Entrada Auxiliar",
+      "Frenos ABS"
+    ],
+    "colors": [
+      "Plata",
+      "Gris",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,43",
+      "https://source.unsplash.com/800x600/?automobile,cr-v,1043"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,43",
+    "dealerId": "dealer-iLTIX6Ny",
+    "dealerName": "Honda Toluca",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-07-07T23:57:24.854Z",
+    "updatedAt": "2025-12-22T09:03:21.894Z"
+  },
+  {
+    "id": "vh-OztkNI3W",
+    "brand": "BMW",
+    "model": "Serie 3",
+    "year": 2020,
+    "price": 351000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 10302,
+    "features": [
+      "Sistema de Navegación",
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Frenos ABS",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Negro",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,44",
+      "https://source.unsplash.com/800x600/?automobile,serie 3,1044"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,44",
+    "dealerId": "dealer-7sH0AbKd",
+    "dealerName": "BMW Monterrey",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": false,
+    "stockQuantity": 4,
+    "createdAt": "2025-05-01T05:07:12.353Z",
+    "updatedAt": "2025-12-28T21:34:01.407Z"
+  },
+  {
+    "id": "vh-2BPSyUBQ",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2020,
+    "price": 122000,
+    "type": "hatchback",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 85116,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Frenos ABS",
+      "Rines de Aleación",
+      "Bluetooth",
+      "Quemacocos",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Gris",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,45",
+      "https://source.unsplash.com/800x600/?automobile,sentra,1045"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,45",
+    "dealerId": "dealer-sUq1JXA2",
+    "dealerName": "Nissan Tijuana",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-03-02T23:29:50.554Z",
+    "updatedAt": "2025-12-17T07:34:46.468Z"
+  },
+  {
+    "id": "vh-av4eOhh4",
+    "brand": "Hyundai",
+    "model": "Accent",
+    "year": 2023,
+    "price": 136000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "3.0L V6",
+    "mileage": 69224,
+    "features": [
+      "Control de Estabilidad",
+      "Cruise Control",
+      "Aire Acondicionado",
+      "Bluetooth",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Plata",
+      "Rojo",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,46",
+      "https://source.unsplash.com/800x600/?automobile,accent,1046"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,46",
+    "dealerId": "dealer-NbR4jhiI",
+    "dealerName": "Hyundai Monterrey",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-09-12T10:52:33.931Z",
+    "updatedAt": "2025-12-12T20:06:58.102Z"
+  },
+  {
+    "id": "vh-Q8IKU9nr",
+    "brand": "Ford",
+    "model": "Explorer",
+    "year": 2021,
+    "price": 102000,
+    "type": "hatchback",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "3.0L V6",
+    "mileage": 17076,
+    "features": [
+      "Asientos de Piel",
+      "Aire Acondicionado",
+      "Entrada Auxiliar",
+      "Control de Estabilidad",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Gris",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,47",
+      "https://source.unsplash.com/800x600/?automobile,explorer,1047"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,47",
+    "dealerId": "dealer-8GEHLTFa",
+    "dealerName": "Ford Monterrey",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-02-09T08:44:54.379Z",
+    "updatedAt": "2025-12-29T06:00:55.005Z"
+  },
+  {
+    "id": "vh-bPKzIO3u",
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "price": 296000,
+    "type": "pickup",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 91531,
+    "features": [
+      "Puerto USB",
+      "Sistema de Navegación",
+      "Bluetooth",
+      "Quemacocos",
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Rines de Aleación",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Café",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,48",
+      "https://source.unsplash.com/800x600/?automobile,x5,1048"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,48",
+    "dealerId": "dealer-soTwBP4x",
+    "dealerName": "BMW Querétaro",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-01-30T19:47:30.086Z",
+    "updatedAt": "2025-12-29T06:41:36.359Z"
+  },
+  {
+    "id": "vh-Zw9biT3N",
+    "brand": "Mercedes-Benz",
+    "model": "GLA",
+    "year": 2022,
+    "price": 402000,
+    "type": "pickup",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "3.0L V6",
+    "mileage": 58507,
+    "features": [
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Asientos de Piel",
+      "Aire Acondicionado",
+      "Sistema de Navegación",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Café",
+      "Blanco",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,49",
+      "https://source.unsplash.com/800x600/?automobile,gla,1049"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,49",
+    "dealerId": "dealer-CffyCt0z",
+    "dealerName": "Mercedes-Benz Guadalajara",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": false,
+    "stockQuantity": 4,
+    "createdAt": "2025-08-07T04:54:36.449Z",
+    "updatedAt": "2025-12-18T16:31:40.048Z"
+  },
+  {
+    "id": "vh-4lysY0De",
+    "brand": "Peugeot",
+    "model": "2008",
+    "year": 2019,
+    "price": 111000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Asientos de Piel",
+      "Sistema de Navegación",
+      "Control de Estabilidad",
+      "Bluetooth",
+      "Quemacocos",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Plata",
+      "Rojo",
+      "Gris",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,50",
+      "https://source.unsplash.com/800x600/?automobile,2008,1050"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,50",
+    "dealerId": "dealer-7AMiluOU",
+    "dealerName": "Peugeot Aguascalientes",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-03-02T00:52:15.710Z",
+    "updatedAt": "2025-12-23T16:31:38.769Z"
+  },
+  {
+    "id": "vh-kHIZ3WYw",
+    "brand": "BMW",
+    "model": "X3",
+    "year": 2018,
+    "price": 258000,
+    "type": "pickup",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.5L Turbo",
+    "mileage": 39279,
+    "features": [
+      "Quemacocos",
+      "Control de Estabilidad",
+      "Frenos ABS",
+      "Sensor de Estacionamiento",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Blanco",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,51",
+      "https://source.unsplash.com/800x600/?automobile,x3,1051"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,51",
+    "dealerId": "dealer-5qH53TKO",
+    "dealerName": "BMW Ciudad de México",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-05-06T09:00:02.651Z",
+    "updatedAt": "2025-12-09T03:25:08.318Z"
+  },
+  {
+    "id": "vh-3SBROeEI",
+    "brand": "Mercedes-Benz",
+    "model": "GLE",
+    "year": 2021,
+    "price": 377000,
+    "type": "sedan",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Control de Estabilidad",
+      "Frenos ABS",
+      "Sensor de Estacionamiento",
+      "Aire Acondicionado",
+      "Entrada Auxiliar",
+      "Rines de Aleación",
+      "Puerto USB",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Azul",
+      "Rojo",
+      "Café",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,52",
+      "https://source.unsplash.com/800x600/?automobile,gle,1052"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,52",
+    "dealerId": "dealer-SIZubqxm",
+    "dealerName": "Mercedes-Benz Puebla",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-10-28T17:30:24.978Z",
+    "updatedAt": "2026-01-02T16:27:50.782Z"
+  },
+  {
+    "id": "vh-xtTzWE9D",
+    "brand": "SEAT",
+    "model": "Tarraco",
+    "year": 2025,
+    "price": 157000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 45464,
+    "features": [
+      "Frenos ABS",
+      "Bluetooth",
+      "Entrada Auxiliar",
+      "Puerto USB",
+      "Quemacocos",
+      "Dirección Hidráulica",
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Sensor de Estacionamiento"
+    ],
+    "colors": [
+      "Gris",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,53",
+      "https://source.unsplash.com/800x600/?automobile,tarraco,1053"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,53",
+    "dealerId": "dealer-WACqYVBF",
+    "dealerName": "SEAT Querétaro",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-12-09T16:04:29.908Z",
+    "updatedAt": "2025-12-12T20:19:14.778Z"
+  },
+  {
+    "id": "vh-IcVFjkJH",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2018,
+    "price": 141000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Frenos ABS",
+      "Control de Estabilidad",
+      "Entrada Auxiliar",
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Puerto USB",
+      "Aire Acondicionado",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Gris",
+      "Blanco",
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,54",
+      "https://source.unsplash.com/800x600/?automobile,tiguan,1054"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,54",
+    "dealerId": "dealer-5RBkBwOZ",
+    "dealerName": "Volkswagen Tijuana",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-11-09T05:45:11.531Z",
+    "updatedAt": "2025-12-28T10:50:17.059Z"
+  },
+  {
+    "id": "vh-2QcaDdcu",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2023,
+    "price": 212000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Control de Estabilidad",
+      "Dirección Hidráulica",
+      "Aire Acondicionado",
+      "Sensor de Estacionamiento",
+      "Entrada Auxiliar",
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Bolsas de Aire",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Negro",
+      "Café",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,55",
+      "https://source.unsplash.com/800x600/?automobile,tiguan,1055"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,55",
+    "dealerId": "dealer-YavuYqou",
+    "dealerName": "Volkswagen Monterrey",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-12-22T17:44:45.119Z",
+    "updatedAt": "2026-01-06T12:30:24.125Z"
+  },
+  {
+    "id": "vh-Ij01cFqF",
+    "brand": "Peugeot",
+    "model": "2008",
+    "year": 2020,
+    "price": 97000,
+    "type": "hatchback",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 73617,
+    "features": [
+      "Asientos de Piel",
+      "Quemacocos",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Bluetooth",
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Café",
+      "Negro",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,56",
+      "https://source.unsplash.com/800x600/?automobile,2008,1056"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,56",
+    "dealerId": "dealer-7O2BWXb2",
+    "dealerName": "Peugeot Aguascalientes",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-06-20T03:52:33.152Z",
+    "updatedAt": "2025-12-28T23:07:16.553Z"
+  },
+  {
+    "id": "vh-K8dlz4ol",
+    "brand": "Nissan",
+    "model": "Kicks",
+    "year": 2023,
+    "price": 180000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Dirección Hidráulica",
+      "Entrada Auxiliar",
+      "Puerto USB",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Negro",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,57",
+      "https://source.unsplash.com/800x600/?automobile,kicks,1057"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,57",
+    "dealerId": "dealer-H0bRFbt5",
+    "dealerName": "Nissan Querétaro",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-12-29T22:16:32.375Z",
+    "updatedAt": "2026-01-06T08:48:16.682Z"
+  },
+  {
+    "id": "vh-nRlSQchb",
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2020,
+    "price": 131000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 18332,
+    "features": [
+      "Cruise Control",
+      "Frenos ABS",
+      "Rines de Aleación",
+      "Quemacocos",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,58",
+      "https://source.unsplash.com/800x600/?automobile,altima,1058"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,58",
+    "dealerId": "dealer-C5kNSojE",
+    "dealerName": "Nissan Querétaro",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-07-26T19:11:37.644Z",
+    "updatedAt": "2025-12-29T22:48:18.682Z"
+  },
+  {
+    "id": "vh-IrTgfJAU",
+    "brand": "Toyota",
+    "model": "Hilux",
+    "year": 2023,
+    "price": 224000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 95705,
+    "features": [
+      "Bolsas de Aire",
+      "Rines de Aleación",
+      "Frenos ABS",
+      "Cruise Control",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Puerto USB",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Gris",
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,59",
+      "https://source.unsplash.com/800x600/?automobile,hilux,1059"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,59",
+    "dealerId": "dealer-72WEFSOO",
+    "dealerName": "Toyota Toluca",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-05-22T14:48:33.131Z",
+    "updatedAt": "2025-12-28T03:16:04.210Z"
+  },
+  {
+    "id": "vh-17r2VACF",
+    "brand": "Volkswagen",
+    "model": "Vento",
+    "year": 2019,
+    "price": 117000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.5L Turbo",
+    "mileage": 55610,
+    "features": [
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Frenos ABS",
+      "Quemacocos",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Rojo",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,60",
+      "https://source.unsplash.com/800x600/?automobile,vento,1060"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,60",
+    "dealerId": "dealer-iaCpMiFy",
+    "dealerName": "Volkswagen Monterrey",
+    "dealerLocation": "Guadalajara, Jalisco",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-09-04T00:57:19.427Z",
+    "updatedAt": "2026-01-04T02:21:36.852Z"
+  },
+  {
+    "id": "vh-t0X8FnYF",
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2020,
+    "price": 100000,
+    "type": "crossover",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 43040,
+    "features": [
+      "Puerto USB",
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Control de Estabilidad",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Rojo",
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,61",
+      "https://source.unsplash.com/800x600/?automobile,santa fe,1061"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,61",
+    "dealerId": "dealer-EBhKZ5dZ",
+    "dealerName": "Hyundai Tijuana",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-04-24T08:15:19.295Z",
+    "updatedAt": "2025-12-26T01:23:37.853Z"
+  },
+  {
+    "id": "vh-ZjBy9JQk",
+    "brand": "Hyundai",
+    "model": "Venue",
+    "year": 2021,
+    "price": 131000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Rines de Aleación",
+      "Puerto USB",
+      "Bolsas de Aire",
+      "Bluetooth",
+      "Control de Estabilidad",
+      "Dirección Hidráulica",
+      "Aire Acondicionado",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Negro",
+      "Azul",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,62",
+      "https://source.unsplash.com/800x600/?automobile,venue,1062"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,62",
+    "dealerId": "dealer-OvUHZQC9",
+    "dealerName": "Hyundai Cancún",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": false,
+    "stockQuantity": 2,
+    "createdAt": "2025-07-20T00:19:18.944Z",
+    "updatedAt": "2025-12-13T02:12:51.941Z"
+  },
+  {
+    "id": "vh-FsxdxTnH",
+    "brand": "Ford",
+    "model": "Maverick",
+    "year": 2020,
+    "price": 122000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Rines de Aleación",
+      "Puerto USB",
+      "Quemacocos",
+      "Dirección Hidráulica",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Cámara de Reversa",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Gris",
+      "Plata",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,63",
+      "https://source.unsplash.com/800x600/?automobile,maverick,1063"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,63",
+    "dealerId": "dealer-7TH2hyQL",
+    "dealerName": "Ford Querétaro",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": false,
+    "stockQuantity": 2,
+    "createdAt": "2025-03-08T04:05:01.224Z",
+    "updatedAt": "2026-01-02T16:40:04.433Z"
+  },
+  {
+    "id": "vh-5xNaTsp4",
+    "brand": "BMW",
+    "model": "Serie 3",
+    "year": 2018,
+    "price": 329000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Control de Estabilidad",
+      "Frenos ABS",
+      "Aire Acondicionado",
+      "Sistema de Navegación",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Gris",
+      "Plata",
+      "Negro",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,64",
+      "https://source.unsplash.com/800x600/?automobile,serie 3,1064"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,64",
+    "dealerId": "dealer-Cne5MvFy",
+    "dealerName": "BMW Ciudad de México",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-10-28T12:56:35.725Z",
+    "updatedAt": "2025-12-16T18:49:40.794Z"
+  },
+  {
+    "id": "vh-ZzDWAg4F",
+    "brand": "Honda",
+    "model": "Pilot",
+    "year": 2019,
+    "price": 155000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 16106,
+    "features": [
+      "Entrada Auxiliar",
+      "Quemacocos",
+      "Rines de Aleación",
+      "Bolsas de Aire",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Negro",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,65",
+      "https://source.unsplash.com/800x600/?automobile,pilot,1065"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,65",
+    "dealerId": "dealer-o1AbOlDS",
+    "dealerName": "Honda Tijuana",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": false,
+    "stockQuantity": 1,
+    "createdAt": "2025-12-28T14:36:08.676Z",
+    "updatedAt": "2026-01-05T08:23:04.223Z"
+  },
+  {
+    "id": "vh-zhkRVpAO",
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "price": 136000,
+    "type": "hatchback",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 38166,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Puerto USB",
+      "Asientos de Piel",
+      "Sistema de Navegación",
+      "Frenos ABS",
+      "Dirección Hidráulica",
+      "Cruise Control",
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Negro",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,66",
+      "https://source.unsplash.com/800x600/?automobile,jetta,1066"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,66",
+    "dealerId": "dealer-UApGWLAl",
+    "dealerName": "Volkswagen Guadalajara",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-08-04T20:13:05.892Z",
+    "updatedAt": "2025-12-17T13:08:41.938Z"
+  },
+  {
+    "id": "vh-4QUPdYtz",
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2024,
+    "price": 240000,
+    "type": "crossover",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "2.0L I4",
+    "mileage": 23565,
+    "features": [
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Cruise Control",
+      "Rines de Aleación",
+      "Sistema de Navegación",
+      "Entrada Auxiliar",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Blanco",
+      "Azul",
+      "Rojo",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,67",
+      "https://source.unsplash.com/800x600/?automobile,corolla,1067"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,67",
+    "dealerId": "dealer-l4U8Gsoo",
+    "dealerName": "Toyota Monterrey",
+    "dealerLocation": "Morelia, Michoacán",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-04-12T12:33:59.303Z",
+    "updatedAt": "2025-12-27T03:06:10.918Z"
+  },
+  {
+    "id": "vh-sQzAkWoZ",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2021,
+    "price": 175000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Cruise Control",
+      "Frenos ABS",
+      "Rines de Aleación",
+      "Dirección Hidráulica",
+      "Bluetooth",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Café",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,68",
+      "https://source.unsplash.com/800x600/?automobile,sentra,1068"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,68",
+    "dealerId": "dealer-0LkOahpu",
+    "dealerName": "Nissan Puebla",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-07-14T01:05:14.661Z",
+    "updatedAt": "2025-12-30T20:39:16.162Z"
+  },
+  {
+    "id": "vh-5MJSZl3q",
+    "brand": "Suzuki",
+    "model": "S-Cross",
+    "year": 2025,
+    "price": 170000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Aire Acondicionado",
+      "Frenos ABS",
+      "Bolsas de Aire",
+      "Dirección Hidráulica",
+      "Cruise Control",
+      "Control de Estabilidad",
+      "Asientos de Piel",
+      "Puerto USB",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Negro",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,69",
+      "https://source.unsplash.com/800x600/?automobile,s-cross,1069"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,69",
+    "dealerId": "dealer-gggeZbl4",
+    "dealerName": "Suzuki Aguascalientes",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2026-01-04T07:36:51.818Z",
+    "updatedAt": "2025-12-23T08:50:52.754Z"
+  },
+  {
+    "id": "vh-OBcKmiyN",
+    "brand": "Suzuki",
+    "model": "S-Cross",
+    "year": 2025,
+    "price": 143000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 31014,
+    "features": [
+      "Bolsas de Aire",
+      "Quemacocos",
+      "Asientos de Piel",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Frenos ABS",
+      "Control de Estabilidad",
+      "Aire Acondicionado",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Gris",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,70",
+      "https://source.unsplash.com/800x600/?automobile,s-cross,1070"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,70",
+    "dealerId": "dealer-ABDdzWeY",
+    "dealerName": "Suzuki Mérida",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-01-27T02:51:03.292Z",
+    "updatedAt": "2026-01-04T04:34:53.697Z"
+  },
+  {
+    "id": "vh-Z9sqFmdg",
+    "brand": "Kia",
+    "model": "Forte",
+    "year": 2021,
+    "price": 134000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Cruise Control",
+      "Quemacocos",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Asientos de Piel",
+      "Bluetooth",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Blanco",
+      "Azul",
+      "Rojo",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,71",
+      "https://source.unsplash.com/800x600/?automobile,forte,1071"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,71",
+    "dealerId": "dealer-drKfCUE0",
+    "dealerName": "Kia Querétaro",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-06-07T13:30:07.325Z",
+    "updatedAt": "2025-12-22T20:10:35.906Z"
+  },
+  {
+    "id": "vh-qXj0dLJD",
+    "brand": "SEAT",
+    "model": "Ateca",
+    "year": 2023,
+    "price": 162000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Quemacocos",
+      "Bluetooth",
+      "Cruise Control",
+      "Bolsas de Aire",
+      "Dirección Hidráulica",
+      "Entrada Auxiliar",
+      "Sensor de Estacionamiento"
+    ],
+    "colors": [
+      "Gris",
+      "Café",
+      "Azul",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,72",
+      "https://source.unsplash.com/800x600/?automobile,ateca,1072"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,72",
+    "dealerId": "dealer-EkyTRJsw",
+    "dealerName": "SEAT Guadalajara",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-02-09T06:21:15.181Z",
+    "updatedAt": "2025-12-18T12:19:12.369Z"
+  },
+  {
+    "id": "vh-Bm7bU38S",
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "year": 2018,
+    "price": 119000,
+    "type": "pickup",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Quemacocos",
+      "Control de Estabilidad",
+      "Bolsas de Aire",
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Frenos ABS",
+      "Asientos de Piel",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Negro",
+      "Gris",
+      "Plata",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,73",
+      "https://source.unsplash.com/800x600/?automobile,jetta,1073"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,73",
+    "dealerId": "dealer-NFG1f41v",
+    "dealerName": "Volkswagen Cancún",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-09-24T11:57:58.539Z",
+    "updatedAt": "2025-12-11T13:01:43.143Z"
+  },
+  {
+    "id": "vh-dzHqep9n",
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "year": 2022,
+    "price": 177000,
+    "type": "sedan",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 0,
+    "features": [
+      "Cruise Control",
+      "Entrada Auxiliar",
+      "Aire Acondicionado",
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Control de Estabilidad",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Café",
+      "Azul",
+      "Rojo",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,74",
+      "https://source.unsplash.com/800x600/?automobile,x-trail,1074"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,74",
+    "dealerId": "dealer-uy7rYQn9",
+    "dealerName": "Nissan Cancún",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-10-13T00:19:19.332Z",
+    "updatedAt": "2025-12-18T10:41:58.477Z"
+  },
+  {
+    "id": "vh-AVH73wbL",
+    "brand": "SEAT",
+    "model": "Ibiza",
+    "year": 2020,
+    "price": 113000,
+    "type": "sedan",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "3.0L V6",
+    "mileage": 46280,
+    "features": [
+      "Cruise Control",
+      "Aire Acondicionado",
+      "Frenos ABS",
+      "Quemacocos",
+      "Puerto USB",
+      "Asientos de Piel",
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Rines de Aleación",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Gris",
+      "Azul",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,75",
+      "https://source.unsplash.com/800x600/?automobile,ibiza,1075"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,75",
+    "dealerId": "dealer-xSMSv4jt",
+    "dealerName": "SEAT Mérida",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-05-28T21:28:00.429Z",
+    "updatedAt": "2025-12-10T16:37:43.401Z"
+  },
+  {
+    "id": "vh-yrVmOEH7",
+    "brand": "Honda",
+    "model": "Accord",
+    "year": 2022,
+    "price": 201000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 83272,
+    "features": [
+      "Aire Acondicionado",
+      "Entrada Auxiliar",
+      "Frenos ABS",
+      "Bluetooth",
+      "Rines de Aleación",
+      "Cruise Control"
+    ],
+    "colors": [
+      "Negro",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,76",
+      "https://source.unsplash.com/800x600/?automobile,accord,1076"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,76",
+    "dealerId": "dealer-4qDlHNQr",
+    "dealerName": "Honda Puebla",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-03-17T11:50:17.659Z",
+    "updatedAt": "2025-12-20T22:20:00.954Z"
+  },
+  {
+    "id": "vh-1hIxCLQM",
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2019,
+    "price": 122000,
+    "type": "crossover",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Aire Acondicionado",
+      "Entrada Auxiliar",
+      "Cámara de Reversa",
+      "Control de Estabilidad",
+      "Asientos de Piel",
+      "Rines de Aleación",
+      "Puerto USB",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Plata",
+      "Blanco",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,77",
+      "https://source.unsplash.com/800x600/?automobile,rio,1077"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,77",
+    "dealerId": "dealer-XejuwUSx",
+    "dealerName": "Kia Aguascalientes",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": false,
+    "stockQuantity": 2,
+    "createdAt": "2025-07-15T23:37:29.600Z",
+    "updatedAt": "2025-12-11T08:30:52.863Z"
+  },
+  {
+    "id": "vh-JFZfNwHl",
+    "brand": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2020,
+    "price": 316000,
+    "type": "pickup",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "2.0L I4",
+    "mileage": 59785,
+    "features": [
+      "Asientos de Piel",
+      "Cruise Control",
+      "Dirección Hidráulica",
+      "Bolsas de Aire",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Rojo",
+      "Negro",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,mercedes-benz,78",
+      "https://source.unsplash.com/800x600/?automobile,glc,1078"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,mercedes-benz,78",
+    "dealerId": "dealer-pcsyaTLG",
+    "dealerName": "Mercedes-Benz Puebla",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-07-05T15:47:54.043Z",
+    "updatedAt": "2025-12-09T08:55:33.872Z"
+  },
+  {
+    "id": "vh-wa2KOsIW",
+    "brand": "Chevrolet",
+    "model": "Aveo",
+    "year": 2025,
+    "price": 198000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 34368,
+    "features": [
+      "Dirección Hidráulica",
+      "Frenos ABS",
+      "Cruise Control",
+      "Entrada Auxiliar",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Negro",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,chevrolet,79",
+      "https://source.unsplash.com/800x600/?automobile,aveo,1079"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,chevrolet,79",
+    "dealerId": "dealer-pgk6ymK2",
+    "dealerName": "Chevrolet Tijuana",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-01-23T19:03:01.746Z",
+    "updatedAt": "2026-01-04T07:08:19.177Z"
+  },
+  {
+    "id": "vh-dj9lEZvM",
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2025,
+    "price": 266000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "2.5L I4",
+    "mileage": 83474,
+    "features": [
+      "Rines de Aleación",
+      "Control de Estabilidad",
+      "Aire Acondicionado",
+      "Sensor de Estacionamiento",
+      "Dirección Hidráulica",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Café",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,honda,80",
+      "https://source.unsplash.com/800x600/?automobile,civic,1080"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,honda,80",
+    "dealerId": "dealer-A1DDIEpo",
+    "dealerName": "Honda Ciudad de México",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-11-07T19:31:12.182Z",
+    "updatedAt": "2025-12-18T18:04:01.710Z"
+  },
+  {
+    "id": "vh-V13pTWRp",
+    "brand": "SEAT",
+    "model": "Tarraco",
+    "year": 2018,
+    "price": 99000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.6L I4",
+    "mileage": 23084,
+    "features": [
+      "Frenos ABS",
+      "Bluetooth",
+      "Cámara de Reversa",
+      "Quemacocos",
+      "Sensor de Estacionamiento",
+      "Entrada Auxiliar",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Café",
+      "Rojo",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,81",
+      "https://source.unsplash.com/800x600/?automobile,tarraco,1081"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,81",
+    "dealerId": "dealer-nQL0Sw1x",
+    "dealerName": "SEAT Puebla",
+    "dealerLocation": "Aguascalientes, Aguascalientes",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-11-23T02:59:50.389Z",
+    "updatedAt": "2025-12-21T00:36:30.020Z"
+  },
+  {
+    "id": "vh-EQ1Eikzu",
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2023,
+    "price": 140000,
+    "type": "suv",
+    "condition": "certified",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "3.0L V6",
+    "mileage": 25461,
+    "features": [
+      "Asientos de Piel",
+      "Aire Acondicionado",
+      "Dirección Hidráulica",
+      "Entrada Auxiliar",
+      "Bolsas de Aire",
+      "Cruise Control",
+      "Bluetooth",
+      "Control de Estabilidad"
+    ],
+    "colors": [
+      "Rojo",
+      "Azul",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,82",
+      "https://source.unsplash.com/800x600/?automobile,rio,1082"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,82",
+    "dealerId": "dealer-ZKZruZ6f",
+    "dealerName": "Kia Toluca",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-04-18T18:22:34.452Z",
+    "updatedAt": "2025-12-10T01:09:50.024Z"
+  },
+  {
+    "id": "vh-vClJTjzI",
+    "brand": "Suzuki",
+    "model": "Ertiga",
+    "year": 2019,
+    "price": 109000,
+    "type": "hatchback",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.5L Turbo",
+    "mileage": 74607,
+    "features": [
+      "Entrada Auxiliar",
+      "Cámara de Reversa",
+      "Dirección Hidráulica",
+      "Sistema de Navegación",
+      "Sensor de Estacionamiento",
+      "Bolsas de Aire",
+      "Puerto USB",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Negro",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,suzuki,83",
+      "https://source.unsplash.com/800x600/?automobile,ertiga,1083"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,suzuki,83",
+    "dealerId": "dealer-Y2Zvql9h",
+    "dealerName": "Suzuki Aguascalientes",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-02-04T19:54:58.697Z",
+    "updatedAt": "2025-12-27T01:25:08.796Z"
+  },
+  {
+    "id": "vh-52ZEDFmW",
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "year": 2024,
+    "price": 223000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Control de Estabilidad",
+      "Asientos de Piel",
+      "Frenos ABS",
+      "Aire Acondicionado",
+      "Rines de Aleación",
+      "Cruise Control",
+      "Cámara de Reversa"
+    ],
+    "colors": [
+      "Gris",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,volkswagen,84",
+      "https://source.unsplash.com/800x600/?automobile,polo,1084"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,volkswagen,84",
+    "dealerId": "dealer-2TsMJZj0",
+    "dealerName": "Volkswagen Toluca",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-11-06T16:23:13.609Z",
+    "updatedAt": "2025-12-30T18:23:42.440Z"
+  },
+  {
+    "id": "vh-rvJQQjZQ",
+    "brand": "BMW",
+    "model": "Serie 3",
+    "year": 2021,
+    "price": 346000,
+    "type": "suv",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 48923,
+    "features": [
+      "Puerto USB",
+      "Quemacocos",
+      "Bluetooth",
+      "Aire Acondicionado",
+      "Bolsas de Aire"
+    ],
+    "colors": [
+      "Rojo",
+      "Azul",
+      "Plata",
+      "Blanco"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,85",
+      "https://source.unsplash.com/800x600/?automobile,serie 3,1085"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,85",
+    "dealerId": "dealer-VG7IKg1U",
+    "dealerName": "BMW León",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-06-13T05:37:53.661Z",
+    "updatedAt": "2025-12-31T21:11:21.857Z"
+  },
+  {
+    "id": "vh-lbrMmmv8",
+    "brand": "Nissan",
+    "model": "Frontier",
+    "year": 2020,
+    "price": 134000,
+    "type": "hatchback",
+    "condition": "certified",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "2.5L I4",
+    "mileage": 20357,
+    "features": [
+      "Asientos de Piel",
+      "Bolsas de Aire",
+      "Frenos ABS",
+      "Sensor de Estacionamiento",
+      "Puerto USB"
+    ],
+    "colors": [
+      "Café",
+      "Azul",
+      "Gris"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,86",
+      "https://source.unsplash.com/800x600/?automobile,frontier,1086"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,86",
+    "dealerId": "dealer-YSFmqZQr",
+    "dealerName": "Nissan Ciudad de México",
+    "dealerLocation": "Querétaro, Querétaro",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-11-10T12:40:50.589Z",
+    "updatedAt": "2025-12-07T23:33:48.315Z"
+  },
+  {
+    "id": "vh-mVrKFboj",
+    "brand": "Ford",
+    "model": "Maverick",
+    "year": 2020,
+    "price": 120000,
+    "type": "suv",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Cámara de Reversa",
+      "Puerto USB",
+      "Sistema de Navegación",
+      "Quemacocos",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Blanco",
+      "Plata",
+      "Gris",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,87",
+      "https://source.unsplash.com/800x600/?automobile,maverick,1087"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,87",
+    "dealerId": "dealer-Ko1R6sBn",
+    "dealerName": "Ford Puebla",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-02-27T09:37:10.024Z",
+    "updatedAt": "2026-01-01T07:30:38.068Z"
+  },
+  {
+    "id": "vh-kkZieb1M",
+    "brand": "Ford",
+    "model": "Maverick",
+    "year": 2024,
+    "price": 132000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 34712,
+    "features": [
+      "Asientos de Piel",
+      "Sensor de Estacionamiento",
+      "Quemacocos",
+      "Sistema de Navegación",
+      "Cruise Control",
+      "Frenos ABS",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Café",
+      "Rojo",
+      "Plata",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,ford,88",
+      "https://source.unsplash.com/800x600/?automobile,maverick,1088"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,ford,88",
+    "dealerId": "dealer-chQlRsOR",
+    "dealerName": "Ford Toluca",
+    "dealerLocation": "Mérida, Yucatán",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-05-28T02:57:54.722Z",
+    "updatedAt": "2025-12-31T05:12:45.935Z"
+  },
+  {
+    "id": "vh-OF6dLhND",
+    "brand": "Hyundai",
+    "model": "Venue",
+    "year": 2025,
+    "price": 186000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Cámara de Reversa",
+      "Frenos ABS",
+      "Quemacocos",
+      "Bluetooth",
+      "Entrada Auxiliar"
+    ],
+    "colors": [
+      "Negro",
+      "Gris",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,89",
+      "https://source.unsplash.com/800x600/?automobile,venue,1089"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,89",
+    "dealerId": "dealer-MScFQLMV",
+    "dealerName": "Hyundai Guadalajara",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": false,
+    "stockQuantity": 3,
+    "createdAt": "2025-07-30T12:40:04.838Z",
+    "updatedAt": "2026-01-06T07:14:50.019Z"
+  },
+  {
+    "id": "vh-FNNTrXPe",
+    "brand": "Chevrolet",
+    "model": "Cavalier",
+    "year": 2021,
+    "price": 137000,
+    "type": "crossover",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "3.0L V6",
+    "mileage": 52210,
+    "features": [
+      "Aire Acondicionado",
+      "Asientos de Piel",
+      "Puerto USB",
+      "Dirección Hidráulica",
+      "Frenos ABS",
+      "Entrada Auxiliar",
+      "Rines de Aleación",
+      "Sistema de Navegación"
+    ],
+    "colors": [
+      "Azul",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,chevrolet,90",
+      "https://source.unsplash.com/800x600/?automobile,cavalier,1090"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,chevrolet,90",
+    "dealerId": "dealer-KG5AwaVA",
+    "dealerName": "Chevrolet Tijuana",
+    "dealerLocation": "Toluca, Estado de México",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-03-13T09:32:50.715Z",
+    "updatedAt": "2025-12-23T13:54:26.566Z"
+  },
+  {
+    "id": "vh-qhnChQeu",
+    "brand": "BMW",
+    "model": "X1",
+    "year": 2018,
+    "price": 264000,
+    "type": "suv",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "3.0L V6",
+    "mileage": 74703,
+    "features": [
+      "Dirección Hidráulica",
+      "Cámara de Reversa",
+      "Puerto USB",
+      "Asientos de Piel",
+      "Frenos ABS",
+      "Aire Acondicionado",
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Entrada Auxiliar",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Plata",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,bmw,91",
+      "https://source.unsplash.com/800x600/?automobile,x1,1091"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,bmw,91",
+    "dealerId": "dealer-Gn3CB5C3",
+    "dealerName": "BMW Morelia",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": false,
+    "stockQuantity": 2,
+    "createdAt": "2025-09-16T00:15:37.069Z",
+    "updatedAt": "2025-12-14T18:11:06.517Z"
+  },
+  {
+    "id": "vh-rGBiht3F",
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": 2018,
+    "price": 112000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Sistema de Navegación",
+      "Quemacocos",
+      "Bluetooth",
+      "Dirección Hidráulica",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Plata",
+      "Rojo",
+      "Blanco",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,kia,92",
+      "https://source.unsplash.com/800x600/?automobile,sportage,1092"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,kia,92",
+    "dealerId": "dealer-VQrN8wUa",
+    "dealerName": "Kia Cancún",
+    "dealerLocation": "Cancún, Quintana Roo",
+    "inStock": true,
+    "stockQuantity": 2,
+    "createdAt": "2025-04-08T20:19:36.258Z",
+    "updatedAt": "2025-12-14T18:54:34.371Z"
+  },
+  {
+    "id": "vh-VLU2CKPv",
+    "brand": "SEAT",
+    "model": "Tarraco",
+    "year": 2018,
+    "price": 95000,
+    "type": "sedan",
+    "condition": "certified",
+    "transmission": "cvt",
+    "fuelType": "hybrid",
+    "engine": "2.0L I4",
+    "mileage": 17622,
+    "features": [
+      "Rines de Aleación",
+      "Bluetooth",
+      "Entrada Auxiliar",
+      "Dirección Hidráulica",
+      "Puerto USB",
+      "Bolsas de Aire",
+      "Quemacocos"
+    ],
+    "colors": [
+      "Rojo",
+      "Gris",
+      "Azul"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,seat,93",
+      "https://source.unsplash.com/800x600/?automobile,tarraco,1093"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,seat,93",
+    "dealerId": "dealer-WHBGhiRG",
+    "dealerName": "SEAT Morelia",
+    "dealerLocation": "Tijuana, Baja California",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-11-30T23:40:35.788Z",
+    "updatedAt": "2025-12-17T06:33:55.998Z"
+  },
+  {
+    "id": "vh-rqSkxQbu",
+    "brand": "Toyota",
+    "model": "Yaris",
+    "year": 2023,
+    "price": 196000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "automatic",
+    "fuelType": "gasoline",
+    "engine": "3.0L V6",
+    "mileage": 66637,
+    "features": [
+      "Entrada Auxiliar",
+      "Aire Acondicionado",
+      "Bluetooth",
+      "Sistema de Navegación",
+      "Rines de Aleación",
+      "Control de Estabilidad",
+      "Dirección Hidráulica"
+    ],
+    "colors": [
+      "Negro",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,toyota,94",
+      "https://source.unsplash.com/800x600/?automobile,yaris,1094"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,toyota,94",
+    "dealerId": "dealer-cGxljwiR",
+    "dealerName": "Toyota Toluca",
+    "dealerLocation": "Puebla, Puebla",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-04-09T15:03:30.860Z",
+    "updatedAt": "2025-12-26T17:03:39.775Z"
+  },
+  {
+    "id": "vh-T31wzf2G",
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2022,
+    "price": 118000,
+    "type": "pickup",
+    "condition": "used",
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 79276,
+    "features": [
+      "Sensor de Estacionamiento",
+      "Control de Estabilidad",
+      "Entrada Auxiliar",
+      "Quemacocos",
+      "Bluetooth"
+    ],
+    "colors": [
+      "Plata",
+      "Café"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,95",
+      "https://source.unsplash.com/800x600/?automobile,elantra,1095"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,95",
+    "dealerId": "dealer-Uu7V3J3Y",
+    "dealerName": "Hyundai Puebla",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-06-18T16:27:02.609Z",
+    "updatedAt": "2025-12-24T16:41:46.215Z"
+  },
+  {
+    "id": "vh-1LeVMYmR",
+    "brand": "Peugeot",
+    "model": "5008",
+    "year": 2024,
+    "price": 167000,
+    "type": "sedan",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "2.5L I4",
+    "mileage": 0,
+    "features": [
+      "Bolsas de Aire",
+      "Quemacocos",
+      "Cámara de Reversa",
+      "Bluetooth",
+      "Rines de Aleación",
+      "Sistema de Navegación",
+      "Puerto USB",
+      "Control de Estabilidad"
+    ],
+    "colors": [
+      "Azul",
+      "Gris",
+      "Plata"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,96",
+      "https://source.unsplash.com/800x600/?automobile,5008,1096"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,96",
+    "dealerId": "dealer-zZDFh8vK",
+    "dealerName": "Peugeot Mérida",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 5,
+    "createdAt": "2025-10-08T17:51:58.694Z",
+    "updatedAt": "2025-12-16T16:02:28.782Z"
+  },
+  {
+    "id": "vh-iuKcA9pL",
+    "brand": "Hyundai",
+    "model": "Creta",
+    "year": 2020,
+    "price": 113000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "engine": "1.6L I4",
+    "mileage": 0,
+    "features": [
+      "Sistema de Navegación",
+      "Cámara de Reversa",
+      "Entrada Auxiliar",
+      "Aire Acondicionado",
+      "Rines de Aleación"
+    ],
+    "colors": [
+      "Azul",
+      "Negro"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,hyundai,97",
+      "https://source.unsplash.com/800x600/?automobile,creta,1097"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,hyundai,97",
+    "dealerId": "dealer-rTpMAxm4",
+    "dealerName": "Hyundai Mérida",
+    "dealerLocation": "Monterrey, Nuevo León",
+    "inStock": true,
+    "stockQuantity": 4,
+    "createdAt": "2025-05-05T11:59:51.386Z",
+    "updatedAt": "2025-12-27T15:04:30.179Z"
+  },
+  {
+    "id": "vh-fsnrRe8x",
+    "brand": "Peugeot",
+    "model": "208",
+    "year": 2024,
+    "price": 157000,
+    "type": "sedan",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "gasoline",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Rines de Aleación",
+      "Control de Estabilidad",
+      "Sistema de Navegación",
+      "Cruise Control",
+      "Entrada Auxiliar",
+      "Puerto USB",
+      "Asientos de Piel",
+      "Dirección Hidráulica",
+      "Frenos ABS",
+      "Aire Acondicionado"
+    ],
+    "colors": [
+      "Azul",
+      "Blanco",
+      "Gris",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,peugeot,98",
+      "https://source.unsplash.com/800x600/?automobile,208,1098"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,peugeot,98",
+    "dealerId": "dealer-Nj028nVW",
+    "dealerName": "Peugeot Cancún",
+    "dealerLocation": "Ciudad de México",
+    "inStock": true,
+    "stockQuantity": 1,
+    "createdAt": "2025-02-10T14:17:47.475Z",
+    "updatedAt": "2025-12-17T17:45:53.579Z"
+  },
+  {
+    "id": "vh-vCvmCsiM",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2021,
+    "price": 178000,
+    "type": "hatchback",
+    "condition": "new",
+    "transmission": "cvt",
+    "fuelType": "diesel",
+    "engine": "1.5L Turbo",
+    "mileage": 0,
+    "features": [
+      "Puerto USB",
+      "Cruise Control",
+      "Bluetooth",
+      "Aire Acondicionado",
+      "Control de Estabilidad",
+      "Asientos de Piel"
+    ],
+    "colors": [
+      "Plata",
+      "Gris",
+      "Rojo"
+    ],
+    "images": [
+      "https://source.unsplash.com/800x600/?car,nissan,99",
+      "https://source.unsplash.com/800x600/?automobile,sentra,1099"
+    ],
+    "thumbnailUrl": "https://source.unsplash.com/400x300/?car,nissan,99",
+    "dealerId": "dealer-hqJS5GsU",
+    "dealerName": "Nissan Mérida",
+    "dealerLocation": "León, Guanajuato",
+    "inStock": true,
+    "stockQuantity": 3,
+    "createdAt": "2025-02-18T05:54:52.730Z",
+    "updatedAt": "2026-01-01T12:09:32.931Z"
+  }
+]
