@@ -11,7 +11,11 @@ import { VehicleGrid } from '@/components/vehicles/VehicleGrid';
 import { VehicleFilters } from '@/components/vehicles/VehicleFilters';
 import { BudgetSummary } from '@/components/calculator/BudgetSummary';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, RefreshCw, Search, SlidersHorizontal, GitCompare, X, Loader2 } from 'lucide-react';
+import { ArrowLeft, RefreshCw, Search, SlidersHorizontal, GitCompare, X, Loader2, Sparkles, Shield, Clock, MapPin } from 'lucide-react';
+import { VehicleConditionType, CONDITION_LABELS } from '@/lib/config/financing';
+import { LocationSelector } from '@/components/location/LocationSelector';
+import { useGeolocation } from '@/hooks/useGeolocation';
+import { calculateDistance, UserLocation } from '@/lib/services/geolocation';
 
 export default function ResultadosPage() {
   const router = useRouter();
@@ -25,10 +29,64 @@ export default function ResultadosPage() {
   const [currentSort, setCurrentSort] = useState<VehicleSortOption>('price_asc');
   const [selectedVehicles, setSelectedVehicles] = useState<string[]>([]);
   const [compareMode, setCompareMode] = useState(false);
+  const [vehicleCondition, setVehicleCondition] = useState<VehicleConditionType | null>(null);
+  const [showLocationSelector, setShowLocationSelector] = useState(false);
+  
+  // Hook de geolocalización
+  const { location: userLocation, status: locationStatus } = useGeolocation();
+
+  // Función para agregar distancia a los vehículos
+  const addDistanceToVehicles = (vehicles: Vehicle[], userLoc: UserLocation | null): Vehicle[] => {
+    if (!userLoc) return vehicles;
+    
+    return vehicles.map(vehicle => {
+      // Simular coordenadas de la agencia basadas en dealerLocation
+      // En producción, estas vendrían de la base de datos
+      const dealerCoords = getDealerCoordinates(vehicle.dealerLocation);
+      if (dealerCoords) {
+        const distance = calculateDistance(
+          userLoc.latitude,
+          userLoc.longitude,
+          dealerCoords.lat,
+          dealerCoords.lng
+        );
+        return { ...vehicle, distance };
+      }
+      return vehicle;
+    }).sort((a, b) => {
+      // Ordenar por distancia si ambos tienen distancia
+      if (a.distance !== undefined && b.distance !== undefined) {
+        return a.distance - b.distance;
+      }
+      return 0;
+    });
+  };
+
+  // Obtener coordenadas simuladas de agencias (en producción vendrían de la BD)
+  const getDealerCoordinates = (dealerLocation: string): { lat: number; lng: number } | null => {
+    const locations: Record<string, { lat: number; lng: number }> = {
+      'Guadalajara': { lat: 20.6597, lng: -103.3496 },
+      'Zapopan': { lat: 20.7167, lng: -103.4000 },
+      'Tlaquepaque': { lat: 20.6167, lng: -103.3167 },
+      'Tonalá': { lat: 20.6167, lng: -103.2333 },
+      'Ciudad de México': { lat: 19.4326, lng: -99.1332 },
+      'Monterrey': { lat: 25.6866, lng: -100.3161 },
+      'Puebla': { lat: 19.0414, lng: -98.2063 },
+      'León': { lat: 21.1250, lng: -101.6860 },
+    };
+    
+    // Buscar coincidencia parcial
+    const key = Object.keys(locations).find(k => 
+      dealerLocation.toLowerCase().includes(k.toLowerCase())
+    );
+    
+    return key ? locations[key] : null;
+  };
 
   useEffect(() => {
     const storedResult = sessionStorage.getItem('budgetResult');
     const storedInput = sessionStorage.getItem('budgetInput');
+    const storedCondition = sessionStorage.getItem('vehicleCondition') as VehicleConditionType | null;
 
     if (!storedResult || !storedInput) {
       router.push('/');
@@ -40,13 +98,22 @@ export default function ResultadosPage() {
 
     setBudgetResult(result);
     setBudgetInput(input);
+    if (storedCondition) {
+      setVehicleCondition(storedCondition);
+    }
     loadVehicles(input);
   }, [router]);
 
   const loadVehicles = async (input: BudgetInput) => {
     setLoading(true);
     try {
-      const vehicles = await vehicleRepository.getVehiclesByBudget(input, undefined, currentSort);
+      let vehicles = await vehicleRepository.getVehiclesByBudget(input, undefined, currentSort);
+      
+      // Agregar distancia si hay ubicación del usuario
+      if (userLocation) {
+        vehicles = addDistanceToVehicles(vehicles, userLocation);
+      }
+      
       setAllVehicles(vehicles);
       setFilteredVehicles(vehicles);
 
@@ -58,6 +125,15 @@ export default function ResultadosPage() {
       setLoading(false);
     }
   };
+
+  // Recargar vehículos cuando cambie la ubicación
+  useEffect(() => {
+    if (budgetInput && userLocation) {
+      const vehiclesWithDistance = addDistanceToVehicles(allVehicles, userLocation);
+      setAllVehicles(vehiclesWithDistance);
+      setFilteredVehicles(addDistanceToVehicles(filteredVehicles, userLocation));
+    }
+  }, [userLocation]);
 
   const handleFiltersChange = (filters: Filters) => {
     setCurrentFilters(filters);
@@ -236,7 +312,66 @@ export default function ResultadosPage() {
       {/* Budget Summary */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto px-4 py-6">
-          <BudgetSummary result={budgetResult} />
+          <BudgetSummary result={budgetResult} vehicleCondition={vehicleCondition ?? undefined} />
+        </div>
+      </div>
+
+      {/* Vehicle Condition Badge */}
+      {vehicleCondition && (
+        <div className="bg-blue-50 border-b border-blue-100">
+          <div className="container mx-auto px-4 py-3">
+            <div className="flex items-center gap-2 text-blue-700">
+              {vehicleCondition === 'new' && <Sparkles className="w-4 h-4" />}
+              {vehicleCondition === 'certified' && <Shield className="w-4 h-4" />}
+              {vehicleCondition === 'used' && <Clock className="w-4 h-4" />}
+              <span className="text-sm font-medium">
+                Mostrando vehículos: <strong>{CONDITION_LABELS[vehicleCondition]}</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Location Bar */}
+      <div className="bg-white border-b border-slate-200">
+        <div className="container mx-auto px-4 py-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <MapPin className="w-4 h-4 text-slate-400" />
+              {userLocation ? (
+                <span className="text-sm text-slate-600">
+                  Mostrando agencias cerca de{' '}
+                  <strong className="text-slate-900">
+                    {userLocation.city || 'tu ubicación'}
+                  </strong>
+                  {' '}• Ordenado por distancia
+                </span>
+              ) : (
+                <span className="text-sm text-slate-500">
+                  Activa tu ubicación para ver agencias cercanas
+                </span>
+              )}
+            </div>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowLocationSelector(!showLocationSelector)}
+              className="text-blue-600 hover:text-blue-700 hover:bg-blue-50"
+            >
+              {userLocation ? 'Cambiar' : 'Activar ubicación'}
+            </Button>
+          </div>
+          
+          {/* Location Selector Expandible */}
+          {showLocationSelector && (
+            <div className="mt-4 pb-2">
+              <LocationSelector 
+                onLocationChange={(loc) => {
+                  setShowLocationSelector(false);
+                }}
+              />
+            </div>
+          )}
         </div>
       </div>
 

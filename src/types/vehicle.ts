@@ -37,6 +37,7 @@ export interface Vehicle {
   version?: string;
   year: number;
   price: number;
+  distance?: number;
   type: VehicleType;
   condition: VehicleCondition;
   
