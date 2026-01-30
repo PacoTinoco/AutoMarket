@@ -1,16 +1,19 @@
 'use client';
 
+'use client';
+
 // src/components/layout/Footer.tsx
-// Footer Completo
+// Footer Completo con Disclaimer Legal
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Shield } from 'lucide-react';
+import { FINANCING_CONFIG } from '@/lib/config/financing';
 
 export function Footer() {
   const quickLinks = [
     { href: '/', label: 'Inicio' },
-    { href: '/', label: 'Calculadora de Presupuesto' },
+    { href: '/#calculadora', label: 'Calculadora de Presupuesto' },
     { href: '/resultados', label: 'Lista de Vehículos' },
     { href: '/comparar', label: 'Comparar Vehículos' },
   ];
@@ -18,8 +21,8 @@ export function Footer() {
   const companyLinks = [
     { href: '#about', label: 'Sobre Nosotros' },
     { href: '#dealerships', label: 'Para Agencias' },
-    { href: '#blog', label: 'Blog' },
-    { href: '#contact', label: 'Contacto' },
+    { href: '/terminos', label: 'Términos y Condiciones' },
+    { href: '#privacy', label: 'Política de Privacidad' },
   ];
 
   const socialLinks = [
@@ -63,8 +66,28 @@ export function Footer() {
 
   return (
     <footer className="bg-slate-900 text-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+      {/* Disclaimer Section */}
+      <div className="border-b border-slate-800">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex items-start gap-3 max-w-4xl mx-auto">
+            <Shield className="w-5 h-5 text-slate-500 flex-shrink-0 mt-0.5" />
+            <p className="text-xs text-slate-400 leading-relaxed">
+              <span className="font-medium text-slate-300">Aviso Legal:</span> Los cálculos de financiamiento 
+              son estimados basados en tasas promedio del {FINANCING_CONFIG.ANNUAL_INTEREST_RATE}% anual y no 
+              constituyen una oferta de crédito. Sujeto a aprobación crediticia. Los precios son de referencia 
+              y pueden variar. La disponibilidad debe verificarse con la agencia. AutoMarket es una plataforma 
+              informativa y no es responsable de las transacciones entre usuarios y agencias.{' '}
+              <Link href="/terminos" className="text-blue-400 hover:text-blue-300 underline">
+                Ver términos completos
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Footer */}
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -119,7 +142,7 @@ export function Footer() {
           {/* Company Links */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4">
-              Empresa
+              Legal
             </h4>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
@@ -166,13 +189,13 @@ export function Footer() {
               © 2025 AutoMarket. Todos los derechos reservados.
             </p>
             <div className="flex gap-6">
-              <Link href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
+              <Link href="/terminos" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
                 Términos de Servicio
               </Link>
-              <Link href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
+              <Link href="#privacy" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
                 Política de Privacidad
               </Link>
-              <Link href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
+              <Link href="#cookies" className="text-slate-500 hover:text-slate-300 text-sm transition-colors">
                 Cookies
               </Link>
             </div>

@@ -198,6 +198,15 @@ export default function ResultadosPage() {
       case 'brand_asc':
         filtered.sort((a, b) => a.brand.localeCompare(b.brand));
         break;
+      case 'distance_asc' as VehicleSortOption:
+        // Ordenar por distancia (los que no tienen distancia van al final)
+        filtered.sort((a: any, b: any) => {
+          if (a.distance === undefined && b.distance === undefined) return 0;
+          if (a.distance === undefined) return 1;
+          if (b.distance === undefined) return -1;
+          return a.distance - b.distance;
+        });
+        break;
     }
 
     setFilteredVehicles(filtered);
@@ -415,6 +424,7 @@ export default function ResultadosPage() {
           onFiltersChange={handleFiltersChange}
           onSortChange={handleSortChange}
           totalResults={filteredVehicles.length}
+          hasUserLocation={!!userLocation}
         />
       </div>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AutoMarket - Find Cars You Can Actually Afford",
-  description: "Smart car buying for Mexico. Calculate your real budget and find vehicles that fit your financial reality.",
+  title: "AutoMarket - Compra Autos que Realmente Puedes Pagar",
+  description: "La forma inteligente de comprar tu próximo vehículo en México. Calcula tu presupuesto real y encuentra vehículos que se ajusten a tu realidad financiera.",
 };
 
 export default function RootLayout({
@@ -29,7 +30,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        {children}
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
