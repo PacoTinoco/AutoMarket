@@ -1,666 +1,572 @@
-<div align="center">
-
 # 🚗 AutoMarket
 
-### Plataforma Digital Inteligente para Compra de Vehículos
+<div align="center">
 
-**Encuentra el vehículo que realmente puedes pagar, no solo el que te gusta.**
+![AutoMarket Logo](public/logo.svg.png)
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://auto-market-gamma.vercel.app)
+**Compra autos que realmente puedes pagar**
 
-**[🌐 Ver Demo en Vivo](https://auto-market-gamma.vercel.app)** | **[📚 Documentación](./docs)** | **[🤝 Para Agencias](#-para-agencias-automotrices)**
+La plataforma inteligente que conecta compradores con agencias basándose en capacidad de compra real, no en deseos.
 
----
+[![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[Demo en Vivo](https://auto-market-gamma.vercel.app) · [Reportar Bug](https://github.com/PacoTinoco/AutoMarket/issues) · [Solicitar Feature](https://github.com/PacoTinoco/AutoMarket/issues)
 
 </div>
 
+---
+
 ## 📋 Tabla de Contenidos
 
-- [🎯 El Problema](#-el-problema)
-- [💡 Nuestra Solución](#-nuestra-solución)
-- [✨ Características](#-características-principales)
-- [🚀 Demo en Vivo](#-demo-en-vivo)
-- [🏗️ Arquitectura](#️-arquitectura-técnica)
-- [💻 Tecnologías](#-tecnologías-utilizadas)
-- [🔧 Instalación](#-instalación-y-desarrollo)
-- [📊 Estructura del Proyecto](#-estructura-del-proyecto)
-- [🤝 Para Agencias](#-para-agencias-automotrices)
-- [🗺️ Roadmap](#️-roadmap)
-- [👥 Contribuir](#-contribuir)
-- [📄 Licencia](#-licencia)
+- [Sobre el Proyecto](#-sobre-el-proyecto)
+- [Características](#-características)
+- [Tecnologías](#-tecnologías)
+- [Arquitectura](#-arquitectura)
+- [Instalación](#-instalación)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Configuración](#-configuración)
+- [Uso](#-uso)
+- [API Reference](#-api-reference)
+- [Roadmap](#-roadmap)
+- [Contribuir](#-contribuir)
+- [Licencia](#-licencia)
+- [Contacto](#-contacto)
 
 ---
 
-## 🎯 El Problema
+## 🎯 Sobre el Proyecto
 
-La compra de vehículos en México es un proceso fragmentado y frustrante:
+### El Problema
 
-- ❌ **Búsquedas sin dirección**: Los usuarios exploran catálogos completos sin conocer su capacidad real de compra
-- ❌ **Pérdida de tiempo**: Visitas a agencias con inventario fuera de su alcance financiero
-- ❌ **Decisiones poco informadas**: Desconocimiento del costo real (enganche + mensualidad + extras)
-- ❌ **Leads no calificados**: Agencias invierten tiempo en prospectos sin capacidad de compra
-- ❌ **Sobreendeudamiento**: Compradores adquieren vehículos que comprometen su economía
+El proceso de compra de un vehículo en México está fragmentado:
+- Los compradores no conocen su capacidad real de compra
+- Se ilusionan con autos fuera de su presupuesto
+- Las agencias reciben leads no calificados (70% sin capacidad de compra)
+- Mucho tiempo perdido en ambos lados
 
-### 📈 Datos del Mercado
+### La Solución
 
-- **60%** de los compradores no conocen su presupuesto real antes de buscar
-- **45 minutos** promedio perdido por visita a agencia con inventario inadecuado
-- **35%** de leads en agencias no califican financieramente
+AutoMarket invierte el proceso tradicional:
+
+> **En lugar de preguntar "¿Qué auto quieres?", preguntamos "¿Qué auto puedes comprar sin comprometer tu economía?"**
+
+#### Flujo del Usuario
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  1. Ingresa     │     │  2. Calculamos  │     │  3. Mostramos   │     │  4. Conectamos  │
+│  Presupuesto    │ ──► │  Precio Máximo  │ ──► │  Opciones       │ ──► │  con Agencia    │
+│  (enganche,     │     │  (tasas reales) │     │  Reales         │     │  (lead          │
+│  mensualidad)   │     │                 │     │                 │     │  calificado)    │
+└─────────────────┘     └─────────────────┘     └─────────────────┘     └─────────────────┘
+```
 
 ---
 
-## 💡 Nuestra Solución
+## ✨ Características
 
-**AutoMarket invierte el proceso de compra**
+### 🧮 Calculadora Inteligente de Presupuesto
+- Ingreso de enganche, mensualidad máxima y plazo
+- **Tasas diferenciadas por condición del vehículo:**
+  - Nuevo: ~13% anual
+  - Seminuevo Certificado: ~15% anual
+  - Usado: ~18% anual
+- Cálculo preciso del precio máximo del vehículo
+- Estimación de seguro y costos adicionales
 
-### El Flujo Tradicional:
-```
-Usuario → Busca autos que le gustan → Verifica precio → Calcula si puede pagarlo
-```
+### 📍 Geolocalización
+- Detección automática de ubicación del usuario
+- Selección manual de ciudad (8 ciudades principales de México)
+- Ordenamiento de vehículos por distancia
+- Badge visual de cercanía (verde/azul/ámbar/gris)
 
-### Nuestro Flujo Inteligente:
-```
-Usuario → Ingresa su presupuesto REAL → Ve SOLO autos que puede pagar → Compra sin sorpresas
-```
+### 🔍 Búsqueda y Filtros Avanzados
+- Filtros por: marca, tipo, transmisión, combustible, año
+- Ordenamiento múltiple: precio, año, kilometraje, distancia
+- Resultados en tiempo real
 
-## ✨ Pregunta Clave Diferenciadora
+### ⚖️ Comparador de Vehículos
+- Compara hasta 3 vehículos lado a lado
+- Tabla detallada de especificaciones
+- Identificación del mejor valor (precio más bajo)
+- Cálculos de financiamiento comparativos
 
-En lugar de preguntar **"¿Qué auto quieres?"**, 
+### 📄 Fichas Detalladas de Vehículos
+- Galería de imágenes
+- Especificaciones completas
+- Simulación de financiamiento personalizada
+- Información de la agencia y contacto
+- Indicador de disponibilidad en tiempo real
 
-AutoMarket pregunta: **"¿Qué auto puedes comprar sin comprometer tu economía?"**
+### 📱 Diseño Responsive
+- Optimizado para móvil, tablet y desktop
+- 70% de usuarios buscan desde celular
+- Interfaz moderna y profesional
 
----
-
-## ✨ Características Principales
-
-### 🧮 Para Compradores
-
-#### 1. Calculadora de Presupuesto Inteligente
-- **Entradas simples**: Enganche, mensualidad máxima, plazo deseado
-- **Cálculos precisos**: Considera intereses, seguros, placas y mantenimiento
-- **Resultado inmediato**: Precio máximo del vehículo que puedes adquirir
-
-#### 2. Resultados Personalizados
-- **Filtrado automático**: Solo vehículos dentro de tu rango de presupuesto
-- **Información transparente**: Precio total, mensualidad real, costos extras
-- **Sin sorpresas**: Todo incluido desde el inicio
-
-#### 3. Comparación Clara
-- **Múltiples opciones**: Compara hasta 3 vehículos lado a lado
-- **Costos desglosados**: Ve el impacto de cada decisión
-- **Información completa**: Specs técnicas, ubicación, disponibilidad
-
-#### 4. Ubicación de Agencias
-- **Mapa interactivo**: Encuentra vehículos cerca de ti
-- **Contacto directo**: Información de agencias con inventario disponible
-- **Optimización de ruta**: Planifica visitas eficientemente
-
-### 🏢 Para Agencias Automotrices
-
-#### 1. Leads Mejor Calificados
-- **Capacidad verificada**: Cada lead tiene presupuesto confirmado
-- **Interés real**: Solo contactos sobre vehículos dentro de su alcance
-- **Datos completos**: Presupuesto, preferencias y contacto
-
-#### 2. Reducción de Fricción
-- **Menos tiempo perdido**: Atención a prospectos viables
-- **Mayor conversión**: Usuarios llegan sabiendo qué pueden comprar
-- **Proceso eficiente**: Desde búsqueda hasta cierre de venta
-
-#### 3. Integración Sencilla
-- **API simple**: Conecta tu inventario en minutos
-- **Sin cambios complejos**: Se adapta a tus sistemas existentes
-- **Actualizaciones en tiempo real**: Inventario siempre sincronizado
-
-#### 4. Dashboard Analítico (Próximamente)
-- **Métricas de leads**: Tasa de conversión, tiempo de cierre
-- **Análisis de demanda**: Qué vehículos buscan más los usuarios
-- **Optimización de inventario**: Decisiones basadas en datos reales
+### ⚖️ Cumplimiento Legal
+- Disclaimers de financiamiento
+- Página de Términos y Condiciones
+- Protección de datos del usuario
 
 ---
 
-## 🚀 Demo en Vivo
-
-### 🌐 Acceso Público
-
-**URL Principal**: [https://auto-market-gamma.vercel.app](https://auto-market-gamma.vercel.app)
-
-**URLs Alternativas**:
-- [auto-market-git-main-pacotinocos-projects.vercel.app](https://auto-market-git-main-pacotinocos-projects.vercel.app)
-- [auto-market-a2m0pexh6-pacotinocos-projects.vercel.app](https://auto-market-a2m0pexh6-pacotinocos-projects.vercel.app)
-
-### 📱 Prueba el Flujo Completo
-
-1. **Ajusta tu presupuesto** en la calculadora
-   - Enganche: $50,000 - $200,000
-   - Mensualidad: $1,000 - $20,000
-   - Plazo: 12 a 72 meses
-
-2. **Revisa el cálculo** del precio máximo del vehículo
-   - Incluye estimados de seguros, placas y mantenimiento
-   - Mensualidad real vs. mensualidad de crédito
-
-3. **Explora vehículos disponibles**
-   - 100+ opciones generadas con datos realistas
-   - Marcas: Toyota, Honda, Nissan, Mazda, VW, y más
-   - Ubicaciones: Principales ciudades de México
-
-4. **Compara opciones** y encuentra tu vehículo ideal
-
-> **Nota**: Esta es una versión demo con datos ficticios. La versión de producción se conectará con inventarios reales de agencias.
-
----
-
-## 🏗️ Arquitectura Técnica
-
-### 🎨 Diseño del Sistema
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      FRONTEND (Next.js)                      │
-│  ┌────────────────┐  ┌─────────────────┐  ┌──────────────┐ │
-│  │  Calculadora   │  │  Resultados     │  │  Comparador  │ │
-│  │  Presupuesto   │  │  Vehículos      │  │  (Próximo)   │ │
-│  └────────────────┘  └─────────────────┘  └──────────────┘ │
-└────────────────────────────┬────────────────────────────────┘
-                             │
-                   ┌─────────▼──────────┐
-                   │  Service Layer     │
-                   │  (Lógica Negocio)  │
-                   └─────────┬──────────┘
-                             │
-            ┌────────────────┴────────────────┐
-            │                                 │
-    ┌───────▼────────┐              ┌────────▼─────────┐
-    │  Financial     │              │  Data Adapters   │
-    │  Calculator    │              │  (Repository)    │
-    └────────────────┘              └────────┬─────────┘
-                                              │
-                                 ┌────────────┴────────────┐
-                                 │                         │
-                         ┌───────▼────────┐      ┌────────▼────────┐
-                         │  Mock Adapter  │      │  API Adapter    │
-                         │  (Demo)        │      │  (Producción)   │
-                         └────────────────┘      └─────────────────┘
-```
-
-### 🔑 Patrón de Diseño: Repository/Adapter
-
-**Beneficio clave**: Cambio transparente entre datos mock (demo) y API real (producción)
-
-```typescript
-// El componente usa la interfaz, no sabe si es mock o API real
-const vehicles = await vehicleRepository.getVehiclesByBudget(budget);
-
-// Cambio de modo (mock → producción):
-// NEXT_PUBLIC_DATA_SOURCE=api  ← Una sola variable de entorno
-```
-
-### 📦 Componentes Modulares
-
-**Reutilización y escalabilidad**
-
-- `BudgetCalculator`: Calculadora independiente, reutilizable
-- `VehicleCard`: Tarjeta de vehículo genérica
-- `VehicleGrid`: Layout responsive para resultados
-- `FinancialCalculator`: Lógica de cálculos aislada y testeable
-
----
-
-## 💻 Tecnologías Utilizadas
+## 🛠 Tecnologías
 
 ### Frontend
-- **[Next.js 16](https://nextjs.org/)** - Framework React con SSR y optimizaciones
-- **[TypeScript 5](https://www.typescriptlang.org/)** - Tipado estático y mejor DX
-- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[shadcn/ui](https://ui.shadcn.com/)** - Componentes accesibles y personalizables
-- **[Lucide React](https://lucide.dev/)** - Iconos modernos
-
-### Backend (Lógica)
-- **Calculadora Financiera** - Algoritmos propios de amortización
-- **Data Layer** - Patrón Repository/Adapter para flexibilidad
-
-### Data & Testing
-- **[@faker-js/faker](https://fakerjs.dev/)** - Generación de datos mock realistas
-- **JSON Mock Data** - 100+ vehículos y 15 agencias ficticias
-
-### Deployment & DevOps
-- **[Vercel](https://vercel.com/)** - Hosting serverless con CI/CD automático
-- **[GitHub Actions](https://github.com/features/actions)** - Integración continua
-- **[Git](https://git-scm.com/)** - Control de versiones
+| Tecnología | Versión | Uso |
+|------------|---------|-----|
+| [Next.js](https://nextjs.org/) | 15.x | Framework React con App Router |
+| [React](https://reactjs.org/) | 19.x | Biblioteca UI |
+| [TypeScript](https://www.typescriptlang.org/) | 5.x | Tipado estático |
+| [Tailwind CSS](https://tailwindcss.com/) | 3.4.x | Estilos utilitarios |
+| [Lucide React](https://lucide.dev/) | Latest | Iconografía |
+| [shadcn/ui](https://ui.shadcn.com/) | Latest | Componentes UI |
 
 ### Herramientas de Desarrollo
-- **[ESLint](https://eslint.org/)** - Linting de código
-- **[Prettier](https://prettier.io/)** - Formateo de código
-- **[VS Code](https://code.visualstudio.com/)** - Editor recomendado
+| Herramienta | Uso |
+|-------------|-----|
+| ESLint | Linting de código |
+| Prettier | Formateo de código |
+| Turbopack | Bundler de desarrollo |
+
+### Despliegue
+| Servicio | Uso |
+|----------|-----|
+| [Vercel](https://vercel.com/) | Hosting y CI/CD |
 
 ---
 
-## 🔧 Instalación y Desarrollo
+## 🏗 Arquitectura
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                         FRONTEND                                 │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
+│  │   Pages     │  │ Components  │  │   Hooks     │              │
+│  │  (App Router)│  │  (UI/Logic) │  │  (State)    │              │
+│  └─────────────┘  └─────────────┘  └─────────────┘              │
+│         │                │                │                      │
+│         └────────────────┼────────────────┘                      │
+│                          ▼                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                    Services Layer                        │    │
+│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐      │    │
+│  │  │ Geolocation │  │  Financial  │  │ Vehicle     │      │    │
+│  │  │  Service    │  │  Calculator │  │ Repository  │      │    │
+│  │  └─────────────┘  └─────────────┘  └─────────────┘      │    │
+│  └─────────────────────────────────────────────────────────┘    │
+│                          │                                       │
+│                          ▼                                       │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                   Config Layer                           │    │
+│  │  ┌─────────────────────────────────────────────────┐    │    │
+│  │  │              financing.ts                        │    │    │
+│  │  │  (Tasas, plazos, seguros configurables)         │    │    │
+│  │  └─────────────────────────────────────────────────┘    │    │
+│  └─────────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                      DATA LAYER                                  │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │           Mock Data / Future: API + Database             │    │
+│  └─────────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚀 Instalación
 
 ### Prerrequisitos
 
-```bash
-node >= 18.0.0
-npm >= 9.0.0
-git >= 2.30.0
-```
+- Node.js 18.x o superior
+- npm, yarn o pnpm
 
-### Instalación Local
+### Pasos
 
+1. **Clonar el repositorio**
 ```bash
-# 1. Clonar el repositorio
 git clone https://github.com/PacoTinoco/AutoMarket.git
 cd AutoMarket
-
-# 2. Instalar dependencias
-npm install
-
-# 3. Configurar variables de entorno
-cp .env.example .env.local
-
-# Editar .env.local:
-# NEXT_PUBLIC_DATA_SOURCE=mock
-# NEXT_PUBLIC_API_URL=https://api.tu-plataforma.com
-
-# 4. Generar datos mock (opcional, ya incluidos)
-npm run generate-mock-data
-
-# 5. Iniciar servidor de desarrollo
-npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
-
-### Scripts Disponibles
-
+2. **Instalar dependencias**
 ```bash
-npm run dev          # Servidor de desarrollo
-npm run build        # Build de producción
-npm run start        # Servidor de producción
-npm run lint         # Verificar código
-npm run generate-mock-data  # Regenerar datos ficticios
+npm install
+# o
+yarn install
+# o
+pnpm install
 ```
 
-### Build de Producción
+3. **Ejecutar en desarrollo**
+```bash
+npm run dev
+# o
+yarn dev
+# o
+pnpm dev
+```
+
+4. **Abrir en el navegador**
+```
+http://localhost:3000
+```
+
+### Build para Producción
 
 ```bash
 npm run build
-npm run start
+npm start
 ```
 
 ---
 
-## 📊 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 AutoMarket/
+├── public/                     # Archivos estáticos
+│   ├── logo.svg.png
+│   └── videos/
+│       └── hero-video.mp4
+│
 ├── src/
-│   ├── app/                      # App Router de Next.js
-│   │   ├── page.tsx             # Página principal (calculadora)
-│   │   ├── resultados/          # Página de resultados
-│   │   │   └── page.tsx
-│   │   ├── layout.tsx           # Layout global
-│   │   └── globals.css          # Estilos globales
+│   ├── app/                    # App Router (Next.js 15)
+│   │   ├── layout.tsx          # Layout principal
+│   │   ├── page.tsx            # Página de inicio
+│   │   ├── resultados/
+│   │   │   └── page.tsx        # Resultados de búsqueda
+│   │   ├── vehiculo/
+│   │   │   └── [id]/
+│   │   │       └── page.tsx    # Detalle de vehículo
+│   │   ├── comparar/
+│   │   │   └── page.tsx        # Comparador
+│   │   └── terminos/
+│   │       └── page.tsx        # Términos y condiciones
 │   │
-│   ├── components/              # Componentes React
-│   │   ├── calculator/          # Componentes de calculadora
+│   ├── components/
+│   │   ├── ui/                 # Componentes base (shadcn)
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── slider.tsx
+│   │   │   └── badge.tsx
+│   │   │
+│   │   ├── layout/             # Componentes de layout
+│   │   │   ├── Header.tsx
+│   │   │   └── Footer.tsx
+│   │   │
+│   │   ├── landing/            # Secciones del landing
+│   │   │   ├── HeroSection.tsx
+│   │   │   ├── HowItWorksSection.tsx
+│   │   │   ├── BenefitsSection.tsx
+│   │   │   ├── TestimonialsSection.tsx
+│   │   │   ├── FAQSection.tsx
+│   │   │   └── CTASection.tsx
+│   │   │
+│   │   ├── calculator/         # Calculadora de presupuesto
 │   │   │   ├── BudgetCalculator.tsx
 │   │   │   └── BudgetSummary.tsx
-│   │   ├── vehicles/            # Componentes de vehículos
+│   │   │
+│   │   ├── vehicles/           # Componentes de vehículos
 │   │   │   ├── VehicleCard.tsx
-│   │   │   └── VehicleGrid.tsx
-│   │   └── ui/                  # Componentes UI base (shadcn)
-│   │       ├── button.tsx
-│   │       ├── card.tsx
-│   │       ├── input.tsx
-│   │       └── ...
-│   │
-│   ├── lib/                     # Lógica de negocio
-│   │   ├── financial/           # 🔥 Calculadora financiera
-│   │   │   ├── calculator.ts    # Algoritmos principales
-│   │   │   ├── loanSimulator.ts # Simulación de préstamos
-│   │   │   ├── config.ts        # Configuración (tasas, etc)
+│   │   │   ├── VehicleGrid.tsx
+│   │   │   ├── VehicleFilters.tsx
+│   │   │   └── VehicleComparisonTable.tsx
+│   │   │
+│   │   ├── location/           # Geolocalización
+│   │   │   ├── LocationSelector.tsx
+│   │   │   ├── DistanceBadge.tsx
 │   │   │   └── index.ts
 │   │   │
-│   │   ├── data/                # 🔥 Capa de datos
-│   │   │   ├── adapters/        # Implementaciones
-│   │   │   │   ├── vehicleAdapter.ts    # Interface
-│   │   │   │   ├── mockAdapter.ts       # Mock (demo)
-│   │   │   │   └── apiAdapter.ts        # API (producción)
+│   │   └── legal/              # Componentes legales
+│   │       ├── Disclaimer.tsx
+│   │       └── index.ts
+│   │
+│   ├── hooks/                  # Custom hooks
+│   │   └── useGeolocation.ts
+│   │
+│   ├── lib/                    # Utilidades y servicios
+│   │   ├── config/
+│   │   │   └── financing.ts    # Configuración de financiamiento
+│   │   ├── services/
+│   │   │   └── geolocation.ts  # Servicio de geolocalización
+│   │   ├── data/
 │   │   │   └── repositories/
-│   │   │       └── vehicleRepository.ts # Factory
-│   │   │
-│   │   └── utils.ts             # Utilidades generales
+│   │   │       └── vehicleRepository.ts
+│   │   ├── financial.ts        # Cálculos financieros
+│   │   └── utils.ts            # Utilidades generales
 │   │
-│   ├── types/                   # TypeScript types
-│   │   ├── vehicle.ts           # Tipos de vehículos
-│   │   ├── budget.ts            # Tipos de presupuesto
-│   │   ├── financing.ts         # Tipos de financiamiento
-│   │   ├── dealer.ts            # Tipos de agencias
-│   │   └── index.ts
-│   │
-│   └── data/                    # Datos mock (JSON)
-│       ├── mock-vehicles.json   # 100 vehículos ficticios
-│       └── mock-dealers.json    # 15 agencias ficticias
+│   └── types/                  # Definiciones de tipos
+│       ├── index.ts
+│       ├── budget.ts
+│       ├── vehicle.ts
+│       └── extensions.ts
 │
-├── public/                      # Archivos estáticos
-│   ├── next.svg
-│   └── vercel.svg
-│
-├── scripts/                     # Scripts de utilidad
-│   └── generate-mock-data.ts    # Generador de datos mock
-│
-├── docs/                        # Documentación
-│   ├── ARCHITECTURE.md          # Arquitectura técnica
-│   ├── INTEGRATION_GUIDE.md     # Guía para agencias
-│   ├── BUSINESS_MODEL.md        # Modelo de negocio
-│   └── assets/                  # Recursos visuales
-│       ├── diagrams/
-│       └── screenshots/
-│
-├── .env.local                   # Variables de entorno (local)
-├── .env.example                 # Ejemplo de variables
+├── .eslintrc.json
 ├── .gitignore
-├── package.json
-├── tsconfig.json
-├── tailwind.config.js
 ├── next.config.ts
-├── README.md                    # Este archivo
-└── LICENSE
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 ```
-
-### 📁 Directorios Clave
-
-| Directorio | Propósito |
-|------------|-----------|
-| `src/app/` | Páginas y rutas de la aplicación |
-| `src/components/` | Componentes reutilizables |
-| `src/lib/financial/` | **Core**: Lógica de cálculos financieros |
-| `src/lib/data/` | **Core**: Abstracción de datos (mock/API) |
-| `src/types/` | Definiciones TypeScript |
-| `src/data/` | Datos mock en JSON |
-| `scripts/` | Scripts de automatización |
-| `docs/` | Documentación técnica y de negocio |
 
 ---
 
-## 🤝 Para Agencias Automotrices
+## ⚙️ Configuración
 
-### 💼 Beneficios para tu Negocio
+### Tasas de Financiamiento
 
-#### 1. **Leads de Mayor Calidad**
-- ✅ Capacidad de compra pre-verificada
-- ✅ Interés confirmado en vehículos específicos
-- ✅ Información de contacto completa
+Edita `src/lib/config/financing.ts` para ajustar las tasas:
 
-#### 2. **Eficiencia Operativa**
-- ⏱️ **70% menos tiempo** en prospectos no viables
-- 📈 **40% mayor tasa de conversión** estimada
-- 💰 **Reducción de costos** de adquisición de clientes
+```typescript
+export const FINANCING_CONFIG = {
+  // Tasa general (fallback)
+  ANNUAL_INTEREST_RATE: 15,
+  
+  // Tasas por condición del vehículo
+  INTEREST_RATES_BY_CONDITION: {
+    new: 13,        // Vehículos nuevos
+    certified: 15,  // Seminuevos certificados
+    used: 18,       // Usados
+  },
+  
+  // Seguro estimado (% anual del valor)
+  INSURANCE_PERCENTAGE_OF_VALUE: 0.015,
+  
+  // Costos adicionales (placas, tenencia, etc.)
+  ADDITIONAL_COSTS_PERCENTAGE: 0.03,
+  
+  // Plazos disponibles (meses)
+  AVAILABLE_TERMS: [12, 24, 36, 48, 60, 72],
+  
+  // Plazo por defecto
+  DEFAULT_TERM: 48,
+};
+```
 
-#### 3. **Ventaja Competitiva**
-- 🎯 Captura leads antes que otras agencias
-- 📊 Datos de mercado y demanda en tiempo real
-- 🚀 Posicionamiento como agencia innovadora
+### Ciudades para Geolocalización
 
-### 🔌 Integración Técnica
+Edita `src/lib/services/geolocation.ts` para agregar más ciudades:
 
-#### Opción 1: API REST (Recomendada)
+```typescript
+export const MEXICAN_CITIES: Record<string, UserLocation> = {
+  'guadalajara': {
+    latitude: 20.6597,
+    longitude: -103.3496,
+    city: 'Guadalajara',
+    state: 'Jalisco',
+  },
+  // Agregar más ciudades aquí...
+};
+```
 
-Conecta tu inventario mediante nuestra API simple:
+---
 
-```javascript
-// Endpoint de ejemplo
-POST /api/vehicles/sync
+## 📖 Uso
 
-{
-  "dealerId": "tu-dealer-id",
-  "vehicles": [
-    {
-      "vin": "1HGBH41JXMN109186",
-      "brand": "Honda",
-      "model": "Civic",
-      "year": 2024,
-      "price": 389000,
-      "inStock": true,
-      // ... más campos
-    }
-  ]
+### Flujo Principal
+
+1. **Usuario ingresa a la página principal**
+2. **Completa la calculadora de presupuesto:**
+   - Enganche disponible
+   - Mensualidad máxima
+   - Plazo deseado
+   - Tipo de vehículo (nuevo/seminuevo/usado)
+3. **Sistema calcula precio máximo del vehículo**
+4. **Usuario ve resultados filtrados por su presupuesto**
+5. **Puede:**
+   - Filtrar por marca, tipo, etc.
+   - Activar ubicación para ver agencias cercanas
+   - Comparar hasta 3 vehículos
+   - Ver detalles completos
+6. **Contacta a la agencia con datos pre-calificados**
+
+### Ejemplo de Cálculo
+
+```
+Entrada:
+- Enganche: $50,000
+- Mensualidad máxima: $8,000
+- Plazo: 48 meses
+- Tipo: Seminuevo (tasa 15%)
+
+Salida:
+- Precio máximo del vehículo: ~$320,000
+- Muestra solo vehículos ≤ $320,000
+```
+
+---
+
+## 📚 API Reference
+
+### Tipos Principales
+
+```typescript
+// Entrada del presupuesto
+interface BudgetInput {
+  downPayment: number;      // Enganche
+  monthlyPayment: number;   // Mensualidad máxima
+  term: number;             // Plazo en meses
+  interestRate?: number;    // Tasa (opcional, se calcula por condición)
+}
+
+// Resultado del cálculo
+interface BudgetResult {
+  input: BudgetInput;
+  maxVehiclePrice: number;
+  totalFinanced: number;
+  totalInterest: number;
+  totalPayment: number;
+  estimatedInsurance: number;
+  estimatedRegistration: number;
+  estimatedMaintenance: number;
+  realMonthlyPayment: number;
+  recommendedPriceRange: {
+    min: number;
+    max: number;
+  };
+}
+
+// Vehículo
+interface Vehicle {
+  id: string;
+  brand: string;
+  model: string;
+  year: number;
+  price: number;
+  condition: 'new' | 'certified' | 'used';
+  type: string;
+  transmission: string;
+  fuelType: string;
+  mileage?: number;
+  engine: string;
+  features: string[];
+  thumbnailUrl: string;
+  images: string[];
+  dealerName: string;
+  dealerLocation: string;
+  inStock: boolean;
+  distance?: number;  // Calculado si hay geolocalización
 }
 ```
 
-#### Opción 2: Feed de Datos
+### Funciones de Configuración
 
-Proporciona un feed XML/JSON actualizable:
+```typescript
+// Obtener tasa por condición
+getInterestRateByCondition(condition: VehicleConditionType): number
 
-```xml
-<inventory>
-  <vehicle>
-    <vin>1HGBH41JXMN109186</vin>
-    <brand>Honda</brand>
-    <model>Civic</model>
-    <year>2024</year>
-    <price>389000</price>
-    <!-- ... -->
-  </vehicle>
-</inventory>
+// Calcular precio máximo del vehículo
+calculateMaxVehiclePrice(
+  downPayment: number,
+  maxMonthlyPayment: number,
+  termMonths: number,
+  annualRate: number
+): number
+
+// Calcular seguro mensual
+calculateMonthlyInsurance(vehiclePrice: number): number
+
+// Calcular distancia entre dos puntos
+calculateDistance(lat1, lon1, lat2, lon2): number
 ```
 
-#### Opción 3: Integración Personalizada
+---
 
-Trabajamos contigo para adaptar la solución a tus sistemas.
+## 🗺 Roadmap
 
-### 📞 Contacto para Agencias
+### ✅ Fase A - Completada
+- [x] Landing page profesional
+- [x] Calculadora de presupuesto
+- [x] Página de resultados
+- [x] Página de detalle de vehículo
+- [x] Comparador de vehículos
+- [x] Header y Footer
 
-¿Interesado en integrar tu inventario?
+### ✅ Fase B - Completada
+- [x] Tasas diferenciadas por condición
+- [x] Geolocalización y distancia
+- [x] Disclaimer legal
+- [x] Página de términos y condiciones
 
-**Sitio web**: https://auto-market-gamma.vercel.app
+### 🔄 Fase C - En Progreso
+- [x] Presentación para agencias
+- [x] README profesional
+- [ ] Testing E2E
+- [ ] Optimización de performance
+- [ ] SEO
+
+### 📋 Fase D - Próximamente
+- [ ] Backend API (Node.js/Express o Next.js API Routes)
+- [ ] Base de datos (PostgreSQL/MongoDB)
+- [ ] Panel de administración para agencias
+- [ ] Sistema de autenticación
+- [ ] Notificaciones de leads
+- [ ] Dashboard de métricas
+- [ ] Integración con CRM
+
+### 🚀 Fase E - Futuro
+- [ ] App móvil (React Native)
+- [ ] Chat en tiempo real
+- [ ] Integración con financieras
+- [ ] Pre-aprobación de crédito
+- [ ] Historial de búsquedas del usuario
 
 ---
 
-## 🗺️ Roadmap
+## 🤝 Contribuir
 
-### ✅ Fase 1: MVP Demo (Completada)
+Las contribuciones son bienvenidas. Para cambios mayores:
 
-- [x] Calculadora de presupuesto funcional
-- [x] Sistema de cálculos financieros
-- [x] Página de resultados con vehículos
-- [x] Datos mock (100 vehículos, 15 agencias)
-- [x] Arquitectura escalable (Adapter Pattern)
-- [x] Deploy en Vercel
-- [x] Diseño responsive
+1. Fork el proyecto
+2. Crea tu rama de feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-### 🔄 Fase 2: Versión Beta (En Desarrollo)
+### Guía de Estilo
 
-**Q1 2026**
-
-- [ ] **Integración con agencias piloto** (2-3 agencias)
-- [ ] **Sistema de leads y notificaciones**
-  - Formulario de contacto funcional
-  - Email/SMS a agencias cuando hay interés
-  - Notificaciones push
-- [ ] **Filtros avanzados**
-  - Por marca, modelo, año
-  - Por tipo de vehículo (sedan, SUV, pickup)
-  - Por características (transmisión, combustible)
-- [ ] **Página de detalle de vehículo**
-  - Galería de imágenes
-  - Specs completas
-  - Calculadora específica para ese vehículo
-- [ ] **Comparador de vehículos**
-  - Hasta 3 vehículos lado a lado
-  - Diferencias de costo, specs, ubicación
-- [ ] **Autenticación de usuarios**
-  - Login/registro
-  - Guardado de búsquedas
-  - Favoritos
-
-### 🚀 Fase 3: Lanzamiento Público (Q2 2026)
-
-- [ ] **API pública para agencias**
-  - Documentación completa
-  - SDKs en JavaScript/Python
-  - Sandbox de pruebas
-- [ ] **Dashboard para agencias**
-  - Gestión de inventario
-  - Métricas de leads
-  - Analytics de conversión
-- [ ] **Optimizaciones de performance**
-  - Cache inteligente
-  - CDN para imágenes
-  - Server-side rendering optimizado
-- [ ] **SEO y Marketing**
-  - Blog con contenido
-  - Landing pages por ciudad
-  - Campañas de ads
-- [ ] **Expansión geográfica**
-  - Cobertura nacional (México)
-  - Integración con más agencias
-
-### 🌟 Fase 4: Escalamiento (Q3-Q4 2026)
-
-- [ ] **App móvil nativa**
-  - iOS (Swift/React Native)
-  - Android (Kotlin/React Native)
-- [ ] **Integraciones con financieras**
-  - Pre-aprobación de crédito en tiempo real
-  - Comparación de tasas de interés
-- [ ] **Marketplace completo**
-  - Sistema de ofertas/contraofertas
-  - Gestión de apartados
-  - Proceso de compra end-to-end
-- [ ] **Inteligencia Artificial**
-  - Recomendaciones personalizadas
-  - Predicción de precios
-  - Chatbot de asesoría
-- [ ] **Expansión internacional**
-  - Colombia, Chile, Argentina
-  - Localización de monedas y regulaciones
-
----
-
-## 📈 Métricas de Éxito
-
-### KPIs Objetivo (Primeros 6 Meses)
-
-| Métrica | Objetivo | Estado Actual |
-|---------|----------|---------------|
-| Usuarios Mensuales | 10,000 | Demo |
-| Leads Generados | 500/mes | Demo |
-| Tasa de Conversión | 15% | A medir |
-| Agencias Integradas | 10 | 0 (Fase piloto) |
-| Tiempo Promedio en Sitio | 5 min | A medir |
-| Satisfacción (NPS) | +40 | A medir |
-
-### Propuesta de Valor Medible
-
-**Para Usuarios:**
-- ⏰ **-80% tiempo** de búsqueda vs. método tradicional
-- 💰 **100% transparencia** en costos reales
-- 🎯 **5x más opciones** viables para su presupuesto
-
-**Para Agencias:**
-- 📊 **+40% conversión** en leads generados
-- ⏱️ **-70% tiempo** en prospectos no calificados
-- 💵 **-30% costo** de adquisición de clientes
-
----
-
-## 👥 Contribuir
-
-¡Las contribuciones son bienvenidas! Este proyecto está abierto a mejoras y nuevas ideas.
-
-### Cómo Contribuir
-
-1. **Fork** el repositorio
-2. Crea una **rama** para tu feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un **Pull Request**
-
-### Guías de Contribución
-
-- Sigue las convenciones de código existentes
-- Agrega tests para nuevas funcionalidades
-- Actualiza la documentación según sea necesario
-- Describe claramente los cambios en el PR
-
-### Reportar Bugs
-
-Usa GitHub Issues para reportar bugs. Incluye:
-- Descripción clara del problema
-- Pasos para reproducir
-- Comportamiento esperado vs. actual
-- Screenshots si aplica
-- Entorno (browser, OS, versión)
+- Usa TypeScript estricto
+- Sigue las convenciones de ESLint configuradas
+- Componentes en PascalCase
+- Hooks con prefijo `use`
+- Commits descriptivos en español o inglés
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
-
-```
-MIT License
-
-```
+Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
 
 ---
 
-## 👤 Autor
+## 📞 Contacto
 
-**Francisco Tinoco**
+**AutoMarket**
 
-- GitHub: [@PacoTinoco](https://github.com/PacoTinoco)
-- LinkedIn: [Francisco Tinoco](https://www.linkedin.com/in/jos%C3%A9-francisco-tinoco-ceja-908681265/)
-- Email: 
+- 📧 Email: hola@automarket.mx
+- 📱 Teléfono: +52 (33) 1234-5678
+- 🌐 Web: [www.automarket.mx](https://auto-market-gamma.vercel.app)
+- 📍 Ubicación: Guadalajara, Jalisco, México
 
----
-
-## 🙏 Agradecimientos
-
-- **Anthropic** - Por Claude AI que ayudó en el desarrollo
-- **Vercel** - Por la plataforma de hosting
-- **Next.js Team** - Por el excelente framework
-- **shadcn** - Por los componentes UI
-- **Comunidad Open Source** - Por todas las librerías utilizadas
-
----
-
-## 📞 Contacto y Soporte
-
-### Para Usuarios
-- **Soporte**: 
-- **FAQ**: [Preguntas Frecuentes](./docs/FAQ.md)
-
-### Para Agencias
-- **Ventas**: 
-- **Integración técnica**: 
-- **WhatsApp**: 
-
-### Redes Sociales
-- Twitter: 
-- Facebook: 
-- Instagram: 
+**Repositorio:** [https://github.com/PacoTinoco/AutoMarket](https://github.com/PacoTinoco/AutoMarket)
 
 ---
 
 <div align="center">
 
-## ⭐ Si te gusta este proyecto, dale una estrella!
+**Hecho con ❤️ en México**
 
-**[🌐 Ver Demo](https://auto-market-gamma.vercel.app)** | **[🐛 Reportar Bug](https://github.com/PacoTinoco/AutoMarket/issues)** | **[💡 Solicitar Feature](https://github.com/PacoTinoco/AutoMarket/issues)**
-
----
-
-**Hecho con ❤️ en México** 🇲🇽
-
-**AutoMarket** - *Encuentra lo que realmente puedes pagar*
-
-© 2026 AutoMarket. Todos los derechos reservados.
+*Compra inteligente de autos para México*
 
 </div>
