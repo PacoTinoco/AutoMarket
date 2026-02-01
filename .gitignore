@@ -1,4 +1,9 @@
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ===========================================
+# DEPENDENCIAS Y BUILD
+# ===========================================
 
 # dependencies
 /node_modules
@@ -20,9 +25,20 @@
 # production
 /build
 
-# misc
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# ===========================================
+# ARCHIVOS DEL SISTEMA
+# ===========================================
+
 .DS_Store
 *.pem
+Thumbs.db
 
 # debug
 npm-debug.log*
@@ -30,12 +46,101 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
+.env.local
+.env.development
+.env.production
 
-# vercel
-.vercel
+# ===========================================
+# 🔒 CÓDIGO PROPIETARIO - NO SUBIR
+# ===========================================
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Lógica de negocio y cálculos financieros
+/src/lib/config/
+/src/lib/financial.ts
+/src/lib/services/
+
+# Repositorios de datos y APIs
+/src/lib/data/
+
+# Hooks personalizados
+/src/hooks/
+
+# Tipos y definiciones internas
+/src/types/
+
+# Componentes de lógica de negocio
+/src/components/calculator/
+/src/components/location/
+/src/components/legal/
+
+# Páginas internas (dejar solo estructura básica)
+/src/app/resultados/
+/src/app/vehiculo/
+/src/app/comparar/
+/src/app/terminos/
+
+# ===========================================
+# DOCUMENTACIÓN INTERNA
+# ===========================================
+
+/docs/internal/
+/docs/api/
+/docs/architecture/
+*.private.md
+DEVELOPMENT.md
+ARCHITECTURE.md
+API.md
+
+# ===========================================
+# DATOS Y CONFIGURACIÓN SENSIBLE
+# ===========================================
+
+# Base de datos y seeds
+/prisma/
+/seeds/
+/data/
+*.sql
+*.db
+*.sqlite
+
+# Configuraciones de API keys
+/config/
+secrets.json
+credentials.json
+
+# ===========================================
+# TESTING Y QA
+# ===========================================
+
+/tests/
+/__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+/cypress/
+/playwright/
+jest.config.*
+playwright.config.*
+
+# ===========================================
+# OTROS
+# ===========================================
+
+# Presentaciones y documentos internos
+*.pptx
+*.pdf
+*.docx
+
+# Backups
+*.backup
+*.bak
+*.old
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
